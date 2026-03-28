@@ -13,7 +13,7 @@ from api.routes.breeds import breeds_bp
 
 # Create Flask app
 app = Flask(__name__)
-CORS(app)  # Enable CORS for frontend access
+CORS(app, origins=["https://timely-faloodeh-6e59b7.netlify.app"])  # Enable CORS for frontend access
 
 # Register blueprints
 app.register_blueprint(recommendations_bp)
