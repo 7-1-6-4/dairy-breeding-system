@@ -1,5 +1,6 @@
 // API Configuration
-const API_BASE_URL = 'http://127.0.0.1:5000';
+
+const API_BASE_URL = 'https://dairy-breeding-system-production.up.railway.app';
 
 // DOM Elements
 const form = document.getElementById('recommendation-form');
