@@ -1,7 +1,7 @@
 from flask import Blueprint, request, jsonify
 import uuid
 from services.database import DatabaseService
-from services.predictor import PredictorService
+#from services.predictor import PredictorService
 from services.explainer import ExplainerService
 
 # Create blueprint
@@ -9,7 +9,7 @@ recommendations_bp = Blueprint('recommendations', __name__)
 
 # Initialize services
 db = DatabaseService()
-predictor = PredictorService()
+#predictor = PredictorService()
 explainer = ExplainerService()
 
 @recommendations_bp.route('/recommend', methods=['POST'])
