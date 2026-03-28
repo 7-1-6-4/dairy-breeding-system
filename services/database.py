@@ -64,20 +64,30 @@ class DatabaseService:
     
     def get_top_recommendations(self, county_id, limit=2):
         """Get top N breed recommendations for a county"""
-        result = self.supabase.table('suitability_scores')\
-            .select('''
-                breed_id,
-                suitability_score,
-                milk_score,
-                health_score,
-                adaptation_score,
-                breeds!inner(breed_name, breed_type, description)
-            ''')\
+        # First get the scores
+        scores_result = self.supabase.table('suitability_scores')\
+            .select('*')\
             .eq('county_id', county_id)\
             .order('suitability_score', desc=True)\
             .limit(limit)\
             .execute()
-        return result.data
+        
+        # Then manually fetch breed details for each
+        enriched = []
+        for score in scores_result.data:
+            # Get breed details using existing method
+            breed = self.get_breed_by_id(score['breed_id'])
+            if breed:
+                enriched.append({
+                    'breed_id': score['breed_id'],
+                    'suitability_score': score['suitability_score'],
+                    'milk_score': score.get('milk_score'),
+                    'health_score': score.get('health_score'),
+                    'adaptation_score': score.get('adaptation_score'),
+                    'breeds': breed
+                })
+        
+        return enriched
     
     # ========== RECOMMENDATIONS LOG ==========
     def log_recommendation(self, session_id, county_id, user_breed_id, rec1_id, rec2_id, score1, score2):
