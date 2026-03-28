@@ -1,0 +1,471 @@
+county_id,county_name,breed_id,breed_name,breed_type,overall_suitability,milk_yield_actual,heat_tolerance_score,disease_resistance_score,feed_efficiency_score,confidence
+1,Kiambu,B001,Friesian,Pure Exotic,95.4,28.8,3,3.9,8,8.5
+1,Kiambu,B002,Ayrshire,Pure Exotic,94.2,22.3,5,4.8,7,8.2
+1,Kiambu,B003,Jersey,Pure Exotic,95.1,19.3,6,5.8,9,8.4
+1,Kiambu,B004,Sahiwal,Pure Indigenous,93.9,13.0,9,8.7,7,8.6
+1,Kiambu,B005,Boran,Pure Indigenous,85.7,9.6,9,8.7,6,8.1
+1,Kiambu,B006,Friesian × Sahiwal,Crossbreed,97.0,20.4,7,6.8,8,8.3
+1,Kiambu,B007,Ayrshire × Sahiwal,Crossbreed,95.9,18.4,7,6.8,7,8.4
+1,Kiambu,B008,Jersey × Sahiwal,Crossbreed,93.7,17.0,8,7.7,8,8.2
+1,Kiambu,B009,Friesian × Boran,Crossbreed,95.8,18.2,7,6.8,7,8.5
+1,Kiambu,B010,Ayrshire × Boran,Crossbreed,94.1,17.6,7,7.7,7,8.4
+2,Nyandarua,B001,Friesian,Pure Exotic,94.2,29.2,3,3.9,8,8.4
+2,Nyandarua,B002,Ayrshire,Pure Exotic,95.2,22.8,5,4.9,7,7.9
+2,Nyandarua,B003,Jersey,Pure Exotic,95.2,19.1,6,5.8,9,8.3
+2,Nyandarua,B004,Sahiwal,Pure Indigenous,82.3,13.2,9,8.7,7,8.1
+2,Nyandarua,B005,Boran,Pure Indigenous,81.6,9.9,9,8.7,6,8.4
+2,Nyandarua,B006,Friesian × Sahiwal,Crossbreed,88.1,20.5,7,6.8,8,8.4
+2,Nyandarua,B007,Ayrshire × Sahiwal,Crossbreed,91.8,18.4,7,6.8,7,8.6
+2,Nyandarua,B008,Jersey × Sahiwal,Crossbreed,92.1,16.6,8,7.8,8,8.4
+2,Nyandarua,B009,Friesian × Boran,Crossbreed,92.0,19.2,7,6.8,7,8.4
+2,Nyandarua,B010,Ayrshire × Boran,Crossbreed,93.3,17.2,7,7.8,7,8.4
+3,Nyeri,B001,Friesian,Pure Exotic,96.2,30.4,3,3.9,8,8.4
+3,Nyeri,B002,Ayrshire,Pure Exotic,96.9,22.9,5,4.8,7,8.3
+3,Nyeri,B003,Jersey,Pure Exotic,92.4,18.8,6,5.8,9,8.4
+3,Nyeri,B004,Sahiwal,Pure Indigenous,94.9,12.9,9,8.7,7,8.5
+3,Nyeri,B005,Boran,Pure Indigenous,84.5,9.7,9,8.7,6,8.6
+3,Nyeri,B006,Friesian × Sahiwal,Crossbreed,90.9,19.8,7,6.8,8,8.4
+3,Nyeri,B007,Ayrshire × Sahiwal,Crossbreed,94.9,18.1,7,6.8,7,8.2
+3,Nyeri,B008,Jersey × Sahiwal,Crossbreed,97.6,17.6,8,7.7,8,8.2
+3,Nyeri,B009,Friesian × Boran,Crossbreed,88.4,17.8,7,6.8,7,8.6
+3,Nyeri,B010,Ayrshire × Boran,Crossbreed,95.7,17.4,7,7.7,7,8.4
+4,Muranga,B001,Friesian,Pure Exotic,97.8,27.7,3,3.8,8,8.6
+4,Muranga,B002,Ayrshire,Pure Exotic,98.2,22.0,5,4.8,7,8.5
+4,Muranga,B003,Jersey,Pure Exotic,96.2,19.0,6,5.8,9,8.2
+4,Muranga,B004,Sahiwal,Pure Indigenous,86.2,12.4,9,8.6,7,8.8
+4,Muranga,B005,Boran,Pure Indigenous,93.2,9.4,9,8.6,6,8.3
+4,Muranga,B006,Friesian × Sahiwal,Crossbreed,94.4,19.8,7,6.7,8,8.7
+4,Muranga,B007,Ayrshire × Sahiwal,Crossbreed,94.0,19.7,7,6.7,7,8.2
+4,Muranga,B008,Jersey × Sahiwal,Crossbreed,97.4,17.5,8,7.7,8,8.2
+4,Muranga,B009,Friesian × Boran,Crossbreed,96.4,19.1,7,6.7,7,8.8
+4,Muranga,B010,Ayrshire × Boran,Crossbreed,96.2,17.2,7,7.7,7,8.4
+5,Kirinyaga,B001,Friesian,Pure Exotic,74.4,28.7,3,3.9,8,8.8
+5,Kirinyaga,B002,Ayrshire,Pure Exotic,88.2,23.5,5,4.8,7,8.2
+5,Kirinyaga,B003,Jersey,Pure Exotic,96.1,19.0,6,5.8,9,8.4
+5,Kirinyaga,B004,Sahiwal,Pure Indigenous,96.0,13.1,9,8.7,7,8.6
+5,Kirinyaga,B005,Boran,Pure Indigenous,92.1,9.4,9,8.7,6,8.8
+5,Kirinyaga,B006,Friesian × Sahiwal,Crossbreed,95.6,19.6,7,6.7,8,8.3
+5,Kirinyaga,B007,Ayrshire × Sahiwal,Crossbreed,94.8,18.0,7,6.7,7,7.9
+5,Kirinyaga,B008,Jersey × Sahiwal,Crossbreed,96.9,17.3,8,7.7,8,8.0
+5,Kirinyaga,B009,Friesian × Boran,Crossbreed,95.2,18.3,7,6.7,7,8.5
+5,Kirinyaga,B010,Ayrshire × Boran,Crossbreed,96.9,16.4,7,7.7,7,8.3
+6,Nakuru,B001,Friesian,Pure Exotic,93.4,28.2,3,3.8,8,8.4
+6,Nakuru,B002,Ayrshire,Pure Exotic,94.1,21.7,5,4.8,7,8.2
+6,Nakuru,B003,Jersey,Pure Exotic,94.8,19.3,6,5.7,9,8.6
+6,Nakuru,B004,Sahiwal,Pure Indigenous,90.8,12.9,9,8.6,7,8.1
+6,Nakuru,B005,Boran,Pure Indigenous,87.6,9.2,9,8.6,6,8.1
+6,Nakuru,B006,Friesian × Sahiwal,Crossbreed,94.3,21.2,7,6.7,8,8.6
+6,Nakuru,B007,Ayrshire × Sahiwal,Crossbreed,95.6,18.7,7,6.7,7,8.3
+6,Nakuru,B008,Jersey × Sahiwal,Crossbreed,97.8,18.0,8,7.7,8,8.2
+6,Nakuru,B009,Friesian × Boran,Crossbreed,91.8,19.0,7,6.7,7,8.4
+6,Nakuru,B010,Ayrshire × Boran,Crossbreed,97.2,17.3,7,7.7,7,8.4
+7,Uasin Gishu,B001,Friesian,Pure Exotic,95.8,27.8,3,3.8,8,8.5
+7,Uasin Gishu,B002,Ayrshire,Pure Exotic,95.0,22.4,5,4.8,7,8.8
+7,Uasin Gishu,B003,Jersey,Pure Exotic,98.6,20.2,6,5.8,9,8.1
+7,Uasin Gishu,B004,Sahiwal,Pure Indigenous,89.5,13.4,9,8.7,7,8.4
+7,Uasin Gishu,B005,Boran,Pure Indigenous,81.8,9.4,9,8.7,6,8.3
+7,Uasin Gishu,B006,Friesian × Sahiwal,Crossbreed,90.2,19.8,7,6.7,8,8.5
+7,Uasin Gishu,B007,Ayrshire × Sahiwal,Crossbreed,97.0,18.6,7,6.7,7,8.3
+7,Uasin Gishu,B008,Jersey × Sahiwal,Crossbreed,85.3,16.7,8,7.7,8,8.2
+7,Uasin Gishu,B009,Friesian × Boran,Crossbreed,93.2,18.5,7,6.7,7,8.4
+7,Uasin Gishu,B010,Ayrshire × Boran,Crossbreed,90.8,16.0,7,7.7,7,8.3
+8,Trans Nzoia,B001,Friesian,Pure Exotic,74.8,29.0,3,3.9,8,8.3
+8,Trans Nzoia,B002,Ayrshire,Pure Exotic,96.4,22.4,5,4.8,7,8.2
+8,Trans Nzoia,B003,Jersey,Pure Exotic,94.8,19.3,6,5.8,9,8.2
+8,Trans Nzoia,B004,Sahiwal,Pure Indigenous,97.0,13.7,9,8.7,7,8.3
+8,Trans Nzoia,B005,Boran,Pure Indigenous,93.4,9.6,9,8.7,6,8.3
+8,Trans Nzoia,B006,Friesian × Sahiwal,Crossbreed,93.4,20.6,7,6.7,8,8.4
+8,Trans Nzoia,B007,Ayrshire × Sahiwal,Crossbreed,93.4,19.0,7,6.7,7,8.2
+8,Trans Nzoia,B008,Jersey × Sahiwal,Crossbreed,97.3,17.6,8,7.7,8,8.3
+8,Trans Nzoia,B009,Friesian × Boran,Crossbreed,97.2,19.8,7,6.7,7,8.6
+8,Trans Nzoia,B010,Ayrshire × Boran,Crossbreed,93.8,16.7,7,7.7,7,8.2
+9,Elgeyo Marakwet,B001,Friesian,Pure Exotic,94.5,29.4,3,3.8,8,8.2
+9,Elgeyo Marakwet,B002,Ayrshire,Pure Exotic,96.0,23.7,5,4.8,7,8.6
+9,Elgeyo Marakwet,B003,Jersey,Pure Exotic,92.6,18.0,6,5.7,9,8.0
+9,Elgeyo Marakwet,B004,Sahiwal,Pure Indigenous,95.5,13.6,9,8.6,7,8.4
+9,Elgeyo Marakwet,B005,Boran,Pure Indigenous,82.2,9.5,9,8.6,6,8.8
+9,Elgeyo Marakwet,B006,Friesian × Sahiwal,Crossbreed,90.4,20.1,7,6.7,8,8.5
+9,Elgeyo Marakwet,B007,Ayrshire × Sahiwal,Crossbreed,94.4,18.6,7,6.7,7,8.6
+9,Elgeyo Marakwet,B008,Jersey × Sahiwal,Crossbreed,91.6,16.1,8,7.6,8,8.4
+9,Elgeyo Marakwet,B009,Friesian × Boran,Crossbreed,98.0,19.8,7,6.7,7,8.5
+9,Elgeyo Marakwet,B010,Ayrshire × Boran,Crossbreed,89.8,16.8,7,7.6,7,8.3
+10,Baringo,B001,Friesian,Pure Exotic,49.2,24.1,3,3.7,8,8.6
+10,Baringo,B002,Ayrshire,Pure Exotic,73.2,16.6,5,4.6,7,8.7
+10,Baringo,B003,Jersey,Pure Exotic,68.4,16.1,6,5.6,9,8.3
+10,Baringo,B004,Sahiwal,Pure Indigenous,99.9,13.0,9,8.4,7,8.2
+10,Baringo,B005,Boran,Pure Indigenous,96.6,9.6,9,8.4,6,8.5
+10,Baringo,B006,Friesian × Sahiwal,Crossbreed,85.9,18.9,7,6.5,8,8.4
+10,Baringo,B007,Ayrshire × Sahiwal,Crossbreed,94.2,16.1,7,6.5,7,8.4
+10,Baringo,B008,Jersey × Sahiwal,Crossbreed,86.8,14.4,8,7.4,8,8.2
+10,Baringo,B009,Friesian × Boran,Crossbreed,87.5,15.4,7,6.5,7,8.0
+10,Baringo,B010,Ayrshire × Boran,Crossbreed,86.1,13.7,7,7.4,7,8.2
+11,Laikipia,B001,Friesian,Pure Exotic,67.9,29.4,3,3.7,8,8.4
+11,Laikipia,B002,Ayrshire,Pure Exotic,89.6,22.5,5,4.7,7,8.4
+11,Laikipia,B003,Jersey,Pure Exotic,82.0,19.5,6,5.6,9,8.2
+11,Laikipia,B004,Sahiwal,Pure Indigenous,94.3,12.9,9,8.4,7,8.6
+11,Laikipia,B005,Boran,Pure Indigenous,98.7,9.8,9,8.4,6,8.2
+11,Laikipia,B006,Friesian × Sahiwal,Crossbreed,95.0,21.3,7,6.5,8,8.4
+11,Laikipia,B007,Ayrshire × Sahiwal,Crossbreed,94.6,19.4,7,6.5,7,8.1
+11,Laikipia,B008,Jersey × Sahiwal,Crossbreed,93.5,16.6,8,7.5,8,8.3
+11,Laikipia,B009,Friesian × Boran,Crossbreed,95.9,18.6,7,6.5,7,8.1
+11,Laikipia,B010,Ayrshire × Boran,Crossbreed,95.8,17.5,7,7.5,7,8.4
+12,Narok,B001,Friesian,Pure Exotic,67.3,28.8,3,3.7,8,8.4
+12,Narok,B002,Ayrshire,Pure Exotic,80.6,23.7,5,4.7,7,8.6
+12,Narok,B003,Jersey,Pure Exotic,84.4,19.6,6,5.6,9,8.1
+12,Narok,B004,Sahiwal,Pure Indigenous,99.2,13.4,9,8.4,7,8.5
+12,Narok,B005,Boran,Pure Indigenous,94.0,9.0,9,8.4,6,8.3
+12,Narok,B006,Friesian × Sahiwal,Crossbreed,94.0,20.7,7,6.6,8,8.3
+12,Narok,B007,Ayrshire × Sahiwal,Crossbreed,91.7,18.9,7,6.6,7,8.4
+12,Narok,B008,Jersey × Sahiwal,Crossbreed,97.7,16.8,8,7.5,8,8.0
+12,Narok,B009,Friesian × Boran,Crossbreed,88.4,18.2,7,6.6,7,8.4
+12,Narok,B010,Ayrshire × Boran,Crossbreed,97.8,16.3,7,7.5,7,8.8
+13,Kajiado,B001,Friesian,Pure Exotic,53.5,21.7,3,3.7,8,8.6
+13,Kajiado,B002,Ayrshire,Pure Exotic,78.6,17.2,5,4.6,7,8.1
+13,Kajiado,B003,Jersey,Pure Exotic,79.4,14.6,6,5.5,9,8.1
+13,Kajiado,B004,Sahiwal,Pure Indigenous,98.2,12.8,9,8.3,7,8.3
+13,Kajiado,B005,Boran,Pure Indigenous,98.9,9.7,9,8.3,6,8.0
+13,Kajiado,B006,Friesian × Sahiwal,Crossbreed,95.6,20.2,7,6.5,8,8.4
+13,Kajiado,B007,Ayrshire × Sahiwal,Crossbreed,82.0,19.7,7,6.5,7,8.2
+13,Kajiado,B008,Jersey × Sahiwal,Crossbreed,86.6,16.9,8,7.4,8,8.3
+13,Kajiado,B009,Friesian × Boran,Crossbreed,76.3,19.4,7,6.5,7,8.2
+13,Kajiado,B010,Ayrshire × Boran,Crossbreed,87.2,16.6,7,7.4,7,8.8
+14,Kericho,B001,Friesian,Pure Exotic,93.9,28.4,3,3.9,8,8.1
+14,Kericho,B002,Ayrshire,Pure Exotic,93.7,22.1,5,4.8,7,8.6
+14,Kericho,B003,Jersey,Pure Exotic,92.1,18.7,6,5.8,9,8.4
+14,Kericho,B004,Sahiwal,Pure Indigenous,94.5,13.0,9,8.7,7,8.6
+14,Kericho,B005,Boran,Pure Indigenous,71.1,8.7,9,8.7,6,8.5
+14,Kericho,B006,Friesian × Sahiwal,Crossbreed,94.4,20.8,7,6.8,8,8.4
+14,Kericho,B007,Ayrshire × Sahiwal,Crossbreed,95.4,18.7,7,6.8,7,8.3
+14,Kericho,B008,Jersey × Sahiwal,Crossbreed,94.3,17.0,8,7.7,8,8.4
+14,Kericho,B009,Friesian × Boran,Crossbreed,91.8,18.1,7,6.8,7,8.6
+14,Kericho,B010,Ayrshire × Boran,Crossbreed,94.0,16.6,7,7.7,7,7.9
+15,Bomet,B001,Friesian,Pure Exotic,74.1,29.0,3,3.8,8,8.2
+15,Bomet,B002,Ayrshire,Pure Exotic,97.6,23.1,5,4.8,7,8.2
+15,Bomet,B003,Jersey,Pure Exotic,96.8,18.9,6,5.8,9,8.7
+15,Bomet,B004,Sahiwal,Pure Indigenous,94.7,13.4,9,8.6,7,8.4
+15,Bomet,B005,Boran,Pure Indigenous,98.0,9.8,9,8.6,6,8.4
+15,Bomet,B006,Friesian × Sahiwal,Crossbreed,95.6,20.8,7,6.7,8,8.2
+15,Bomet,B007,Ayrshire × Sahiwal,Crossbreed,94.3,19.0,7,6.7,7,8.4
+15,Bomet,B008,Jersey × Sahiwal,Crossbreed,95.3,17.2,8,7.7,8,8.4
+15,Bomet,B009,Friesian × Boran,Crossbreed,97.6,18.6,7,6.7,7,8.4
+15,Bomet,B010,Ayrshire × Boran,Crossbreed,96.4,16.8,7,7.7,7,8.3
+16,Machakos,B001,Friesian,Pure Exotic,63.8,21.7,3,3.7,8,8.7
+16,Machakos,B002,Ayrshire,Pure Exotic,86.8,17.8,5,4.6,7,8.3
+16,Machakos,B003,Jersey,Pure Exotic,78.4,14.8,6,5.6,9,8.3
+16,Machakos,B004,Sahiwal,Pure Indigenous,96.8,13.4,9,8.3,7,8.0
+16,Machakos,B005,Boran,Pure Indigenous,97.0,9.5,9,8.3,6,8.0
+16,Machakos,B006,Friesian × Sahiwal,Crossbreed,85.2,20.8,7,6.5,8,8.7
+16,Machakos,B007,Ayrshire × Sahiwal,Crossbreed,93.5,18.7,7,6.5,7,8.3
+16,Machakos,B008,Jersey × Sahiwal,Crossbreed,93.6,17.1,8,7.4,8,8.5
+16,Machakos,B009,Friesian × Boran,Crossbreed,96.8,18.8,7,6.5,7,8.1
+16,Machakos,B010,Ayrshire × Boran,Crossbreed,86.5,16.8,7,7.4,7,8.5
+17,Makueni,B001,Friesian,Pure Exotic,38.0,15.5,3,3.7,8,8.1
+17,Makueni,B002,Ayrshire,Pure Exotic,44.4,13.0,5,4.6,7,8.2
+17,Makueni,B003,Jersey,Pure Exotic,67.4,11.8,6,5.5,9,7.9
+17,Makueni,B004,Sahiwal,Pure Indigenous,97.4,12.9,9,8.3,7,8.4
+17,Makueni,B005,Boran,Pure Indigenous,97.5,9.1,9,8.3,6,8.4
+17,Makueni,B006,Friesian × Sahiwal,Crossbreed,74.0,18.1,7,6.4,8,8.0
+17,Makueni,B007,Ayrshire × Sahiwal,Crossbreed,74.9,17.2,7,6.4,7,8.4
+17,Makueni,B008,Jersey × Sahiwal,Crossbreed,76.7,14.3,8,7.4,8,8.4
+17,Makueni,B009,Friesian × Boran,Crossbreed,74.6,17.5,7,6.4,7,8.4
+17,Makueni,B010,Ayrshire × Boran,Crossbreed,76.9,15.0,7,7.4,7,8.2
+18,Kitui,B001,Friesian,Pure Exotic,50.6,17.5,3,3.7,8,8.0
+18,Kitui,B002,Ayrshire,Pure Exotic,46.0,12.4,5,4.6,7,8.5
+18,Kitui,B003,Jersey,Pure Exotic,67.6,10.5,6,5.5,9,8.3
+18,Kitui,B004,Sahiwal,Pure Indigenous,97.4,12.2,9,8.3,7,8.6
+18,Kitui,B005,Boran,Pure Indigenous,98.4,9.0,9,8.3,6,8.4
+18,Kitui,B006,Friesian × Sahiwal,Crossbreed,93.8,18.1,7,6.4,8,8.1
+18,Kitui,B007,Ayrshire × Sahiwal,Crossbreed,93.0,15.1,7,6.4,7,8.2
+18,Kitui,B008,Jersey × Sahiwal,Crossbreed,84.8,14.7,8,7.4,8,8.4
+18,Kitui,B009,Friesian × Boran,Crossbreed,75.8,16.0,7,6.4,7,8.5
+18,Kitui,B010,Ayrshire × Boran,Crossbreed,93.9,14.4,7,7.4,7,8.2
+19,Meru,B001,Friesian,Pure Exotic,84.8,28.2,3,3.8,8,8.1
+19,Meru,B002,Ayrshire,Pure Exotic,95.0,22.3,5,4.8,7,7.8
+19,Meru,B003,Jersey,Pure Exotic,96.2,19.0,6,5.7,9,8.3
+19,Meru,B004,Sahiwal,Pure Indigenous,98.6,13.6,9,8.6,7,8.5
+19,Meru,B005,Boran,Pure Indigenous,91.4,9.2,9,8.6,6,8.5
+19,Meru,B006,Friesian × Sahiwal,Crossbreed,95.7,20.8,7,6.7,8,8.0
+19,Meru,B007,Ayrshire × Sahiwal,Crossbreed,95.2,19.0,7,6.7,7,8.4
+19,Meru,B008,Jersey × Sahiwal,Crossbreed,97.7,17.4,8,7.6,8,8.4
+19,Meru,B009,Friesian × Boran,Crossbreed,93.6,18.6,7,6.7,7,8.1
+19,Meru,B010,Ayrshire × Boran,Crossbreed,95.2,16.9,7,7.6,7,8.4
+20,Tharaka Nithi,B001,Friesian,Pure Exotic,81.9,29.4,3,3.8,8,8.7
+20,Tharaka Nithi,B002,Ayrshire,Pure Exotic,81.3,22.8,5,4.7,7,8.6
+20,Tharaka Nithi,B003,Jersey,Pure Exotic,64.0,20.3,6,5.7,9,8.6
+20,Tharaka Nithi,B004,Sahiwal,Pure Indigenous,96.8,12.8,9,8.5,7,8.6
+20,Tharaka Nithi,B005,Boran,Pure Indigenous,94.4,9.4,9,8.5,6,8.5
+20,Tharaka Nithi,B006,Friesian × Sahiwal,Crossbreed,96.4,21.5,7,6.6,8,8.1
+20,Tharaka Nithi,B007,Ayrshire × Sahiwal,Crossbreed,94.2,18.5,7,6.6,7,8.2
+20,Tharaka Nithi,B008,Jersey × Sahiwal,Crossbreed,97.4,16.7,8,7.6,8,8.1
+20,Tharaka Nithi,B009,Friesian × Boran,Crossbreed,90.1,19.2,7,6.6,7,8.2
+20,Tharaka Nithi,B010,Ayrshire × Boran,Crossbreed,97.8,16.6,7,7.6,7,8.2
+21,Embu,B001,Friesian,Pure Exotic,82.5,27.3,3,3.8,8,8.0
+21,Embu,B002,Ayrshire,Pure Exotic,75.4,22.9,5,4.7,7,8.3
+21,Embu,B003,Jersey,Pure Exotic,85.2,19.4,6,5.7,9,8.4
+21,Embu,B004,Sahiwal,Pure Indigenous,97.2,13.4,9,8.5,7,8.1
+21,Embu,B005,Boran,Pure Indigenous,96.3,9.3,9,8.5,6,8.6
+21,Embu,B006,Friesian × Sahiwal,Crossbreed,95.0,20.0,7,6.6,8,8.4
+21,Embu,B007,Ayrshire × Sahiwal,Crossbreed,90.6,18.1,7,6.6,7,8.2
+21,Embu,B008,Jersey × Sahiwal,Crossbreed,97.8,16.9,8,7.6,8,8.1
+21,Embu,B009,Friesian × Boran,Crossbreed,93.5,18.5,7,6.6,7,8.4
+21,Embu,B010,Ayrshire × Boran,Crossbreed,97.6,17.2,7,7.6,7,8.0
+22,Marsabit,B001,Friesian,Pure Exotic,26.6,6.0,3,3.6,8,8.1
+22,Marsabit,B002,Ayrshire,Pure Exotic,43.1,4.9,5,4.6,7,8.4
+22,Marsabit,B003,Jersey,Pure Exotic,46.9,4.4,6,5.5,9,8.7
+22,Marsabit,B004,Sahiwal,Pure Indigenous,95.8,11.1,9,8.2,7,8.4
+22,Marsabit,B005,Boran,Pure Indigenous,80.5,9.0,9,8.2,6,8.8
+22,Marsabit,B006,Friesian × Sahiwal,Crossbreed,65.1,11.0,7,6.4,8,8.5
+22,Marsabit,B007,Ayrshire × Sahiwal,Crossbreed,62.5,10.7,7,6.4,7,8.3
+22,Marsabit,B008,Jersey × Sahiwal,Crossbreed,58.4,9.8,8,7.3,8,8.0
+22,Marsabit,B009,Friesian × Boran,Crossbreed,52.4,11.3,7,6.4,7,8.8
+22,Marsabit,B010,Ayrshire × Boran,Crossbreed,83.4,9.1,7,7.3,7,8.2
+23,Isiolo,B001,Friesian,Pure Exotic,29.6,10.2,3,3.7,8,8.6
+23,Isiolo,B002,Ayrshire,Pure Exotic,54.9,8.6,5,4.6,7,8.3
+23,Isiolo,B003,Jersey,Pure Exotic,41.6,6.9,6,5.5,9,8.7
+23,Isiolo,B004,Sahiwal,Pure Indigenous,85.7,11.6,9,8.2,7,8.0
+23,Isiolo,B005,Boran,Pure Indigenous,90.9,9.0,9,8.2,6,8.3
+23,Isiolo,B006,Friesian × Sahiwal,Crossbreed,84.1,15.1,7,6.4,8,8.8
+23,Isiolo,B007,Ayrshire × Sahiwal,Crossbreed,85.6,12.3,7,6.4,7,8.5
+23,Isiolo,B008,Jersey × Sahiwal,Crossbreed,80.4,12.5,8,7.3,8,8.6
+23,Isiolo,B009,Friesian × Boran,Crossbreed,69.6,14.0,7,6.4,7,8.6
+23,Isiolo,B010,Ayrshire × Boran,Crossbreed,66.4,12.5,7,7.3,7,8.6
+24,Mandera,B001,Friesian,Pure Exotic,19.7,6.4,3,3.6,8,8.3
+24,Mandera,B002,Ayrshire,Pure Exotic,32.6,4.8,5,4.5,7,8.2
+24,Mandera,B003,Jersey,Pure Exotic,32.1,3.9,6,5.4,9,8.3
+24,Mandera,B004,Sahiwal,Pure Indigenous,80.8,10.8,9,8.2,7,8.3
+24,Mandera,B005,Boran,Pure Indigenous,92.8,7.8,9,8.2,6,8.5
+24,Mandera,B006,Friesian × Sahiwal,Crossbreed,51.2,11.8,7,6.4,8,8.3
+24,Mandera,B007,Ayrshire × Sahiwal,Crossbreed,61.1,10.6,7,6.4,7,8.4
+24,Mandera,B008,Jersey × Sahiwal,Crossbreed,54.4,9.2,8,7.3,8,8.4
+24,Mandera,B009,Friesian × Boran,Crossbreed,58.0,10.5,7,6.4,7,8.5
+24,Mandera,B010,Ayrshire × Boran,Crossbreed,74.6,9.1,7,7.3,7,8.2
+25,Wajir,B001,Friesian,Pure Exotic,21.4,5.6,3,3.6,8,8.6
+25,Wajir,B002,Ayrshire,Pure Exotic,27.5,4.4,5,4.5,7,8.2
+25,Wajir,B003,Jersey,Pure Exotic,33.3,4.3,6,5.5,9,8.8
+25,Wajir,B004,Sahiwal,Pure Indigenous,73.8,11.3,9,8.2,7,8.2
+25,Wajir,B005,Boran,Pure Indigenous,82.9,7.8,9,8.2,6,8.2
+25,Wajir,B006,Friesian × Sahiwal,Crossbreed,50.9,11.5,7,6.4,8,8.6
+25,Wajir,B007,Ayrshire × Sahiwal,Crossbreed,61.7,10.2,7,6.4,7,8.4
+25,Wajir,B008,Jersey × Sahiwal,Crossbreed,73.8,8.7,8,7.3,8,8.1
+25,Wajir,B009,Friesian × Boran,Crossbreed,57.1,10.8,7,6.4,7,8.0
+25,Wajir,B010,Ayrshire × Boran,Crossbreed,53.8,9.5,7,7.3,7,8.5
+26,Garissa,B001,Friesian,Pure Exotic,21.4,5.2,3,3.6,8,8.6
+26,Garissa,B002,Ayrshire,Pure Exotic,27.5,5.2,5,4.6,7,8.5
+26,Garissa,B003,Jersey,Pure Exotic,34.4,4.0,6,5.5,9,8.4
+26,Garissa,B004,Sahiwal,Pure Indigenous,67.4,11.6,9,8.2,7,8.5
+26,Garissa,B005,Boran,Pure Indigenous,89.6,8.4,9,8.2,6,8.2
+26,Garissa,B006,Friesian × Sahiwal,Crossbreed,52.4,11.8,7,6.4,8,8.2
+26,Garissa,B007,Ayrshire × Sahiwal,Crossbreed,61.2,10.7,7,6.4,7,8.8
+26,Garissa,B008,Jersey × Sahiwal,Crossbreed,61.6,9.6,8,7.3,8,8.0
+26,Garissa,B009,Friesian × Boran,Crossbreed,51.5,9.9,7,6.4,7,8.4
+26,Garissa,B010,Ayrshire × Boran,Crossbreed,62.7,8.9,7,7.3,7,8.6
+27,Kilifi,B001,Friesian,Pure Exotic,38.0,10.1,3,3.7,8,8.3
+27,Kilifi,B002,Ayrshire,Pure Exotic,53.2,9.1,5,4.6,7,8.9
+27,Kilifi,B003,Jersey,Pure Exotic,64.6,7.7,6,5.6,9,8.0
+27,Kilifi,B004,Sahiwal,Pure Indigenous,97.9,12.8,9,8.3,7,8.8
+27,Kilifi,B005,Boran,Pure Indigenous,97.7,8.9,9,8.3,6,8.8
+27,Kilifi,B006,Friesian × Sahiwal,Crossbreed,82.4,15.2,7,6.5,8,8.8
+27,Kilifi,B007,Ayrshire × Sahiwal,Crossbreed,62.5,14.2,7,6.5,7,8.0
+27,Kilifi,B008,Jersey × Sahiwal,Crossbreed,82.6,12.6,8,7.4,8,8.5
+27,Kilifi,B009,Friesian × Boran,Crossbreed,67.8,13.7,7,6.5,7,8.4
+27,Kilifi,B010,Ayrshire × Boran,Crossbreed,76.8,12.0,7,7.4,7,8.3
+28,Mombasa,B001,Friesian,Pure Exotic,30.4,9.5,3,3.7,8,8.2
+28,Mombasa,B002,Ayrshire,Pure Exotic,46.0,7.7,5,4.7,7,8.0
+28,Mombasa,B003,Jersey,Pure Exotic,67.0,6.6,6,5.6,9,8.1
+28,Mombasa,B004,Sahiwal,Pure Indigenous,97.1,12.8,9,8.4,7,8.2
+28,Mombasa,B005,Boran,Pure Indigenous,94.7,9.2,9,8.4,6,8.6
+28,Mombasa,B006,Friesian × Sahiwal,Crossbreed,81.7,14.1,7,6.5,8,8.6
+28,Mombasa,B007,Ayrshire × Sahiwal,Crossbreed,67.5,13.0,7,6.5,7,8.4
+28,Mombasa,B008,Jersey × Sahiwal,Crossbreed,85.1,11.6,8,7.5,8,8.4
+28,Mombasa,B009,Friesian × Boran,Crossbreed,71.5,12.6,7,6.5,7,8.4
+28,Mombasa,B010,Ayrshire × Boran,Crossbreed,89.4,12.2,7,7.5,7,8.4
+29,Kwale,B001,Friesian,Pure Exotic,32.4,11.7,3,3.7,8,8.6
+29,Kwale,B002,Ayrshire,Pure Exotic,48.6,7.4,5,4.6,7,8.2
+29,Kwale,B003,Jersey,Pure Exotic,73.9,6.2,6,5.6,9,8.3
+29,Kwale,B004,Sahiwal,Pure Indigenous,94.4,12.8,9,8.4,7,8.1
+29,Kwale,B005,Boran,Pure Indigenous,99.0,8.8,9,8.4,6,8.7
+29,Kwale,B006,Friesian × Sahiwal,Crossbreed,73.8,15.8,7,6.5,8,8.4
+29,Kwale,B007,Ayrshire × Sahiwal,Crossbreed,72.9,13.4,7,6.5,7,8.0
+29,Kwale,B008,Jersey × Sahiwal,Crossbreed,78.2,12.4,8,7.4,8,8.5
+29,Kwale,B009,Friesian × Boran,Crossbreed,78.6,13.0,7,6.5,7,8.5
+29,Kwale,B010,Ayrshire × Boran,Crossbreed,83.9,12.2,7,7.4,7,8.3
+30,Taita Taveta,B001,Friesian,Pure Exotic,48.0,23.8,3,3.7,8,8.4
+30,Taita Taveta,B002,Ayrshire,Pure Exotic,70.4,18.6,5,4.7,7,8.5
+30,Taita Taveta,B003,Jersey,Pure Exotic,78.1,14.3,6,5.6,9,8.4
+30,Taita Taveta,B004,Sahiwal,Pure Indigenous,96.6,13.4,9,8.4,7,8.4
+30,Taita Taveta,B005,Boran,Pure Indigenous,98.1,9.4,9,8.4,6,8.5
+30,Taita Taveta,B006,Friesian × Sahiwal,Crossbreed,92.9,19.2,7,6.5,8,7.9
+30,Taita Taveta,B007,Ayrshire × Sahiwal,Crossbreed,96.8,15.3,7,6.5,7,8.5
+30,Taita Taveta,B008,Jersey × Sahiwal,Crossbreed,94.7,14.4,8,7.4,8,8.4
+30,Taita Taveta,B009,Friesian × Boran,Crossbreed,74.3,16.6,7,6.5,7,8.3
+30,Taita Taveta,B010,Ayrshire × Boran,Crossbreed,81.2,15.3,7,7.4,7,8.3
+31,Lamu,B001,Friesian,Pure Exotic,28.6,10.1,3,3.7,8,8.3
+31,Lamu,B002,Ayrshire,Pure Exotic,46.1,9.3,5,4.6,7,8.4
+31,Lamu,B003,Jersey,Pure Exotic,49.7,7.3,6,5.5,9,8.4
+31,Lamu,B004,Sahiwal,Pure Indigenous,94.4,12.8,9,8.3,7,8.3
+31,Lamu,B005,Boran,Pure Indigenous,97.2,8.6,9,8.3,6,7.9
+31,Lamu,B006,Friesian × Sahiwal,Crossbreed,81.3,14.6,7,6.5,8,8.2
+31,Lamu,B007,Ayrshire × Sahiwal,Crossbreed,78.4,13.4,7,6.5,7,8.4
+31,Lamu,B008,Jersey × Sahiwal,Crossbreed,80.8,12.8,8,7.4,8,8.1
+31,Lamu,B009,Friesian × Boran,Crossbreed,63.0,13.2,7,6.5,7,8.2
+31,Lamu,B010,Ayrshire × Boran,Crossbreed,83.5,11.7,7,7.4,7,8.3
+32,Tana River,B001,Friesian,Pure Exotic,24.4,5.6,3,3.7,8,8.4
+32,Tana River,B002,Ayrshire,Pure Exotic,30.8,4.8,5,4.6,7,8.1
+32,Tana River,B003,Jersey,Pure Exotic,52.1,3.3,6,5.5,9,8.5
+32,Tana River,B004,Sahiwal,Pure Indigenous,94.8,11.6,9,8.2,7,8.5
+32,Tana River,B005,Boran,Pure Indigenous,99.5,8.4,9,8.2,6,8.3
+32,Tana River,B006,Friesian × Sahiwal,Crossbreed,63.6,10.5,7,6.4,8,7.9
+32,Tana River,B007,Ayrshire × Sahiwal,Crossbreed,83.5,10.2,7,6.4,7,8.3
+32,Tana River,B008,Jersey × Sahiwal,Crossbreed,75.2,9.5,8,7.3,8,8.7
+32,Tana River,B009,Friesian × Boran,Crossbreed,60.7,9.7,7,6.4,7,8.4
+32,Tana River,B010,Ayrshire × Boran,Crossbreed,75.2,9.6,7,7.3,7,8.4
+33,Kisumu,B001,Friesian,Pure Exotic,66.9,20.8,3,3.8,8,8.1
+33,Kisumu,B002,Ayrshire,Pure Exotic,80.3,18.9,5,4.7,7,8.6
+33,Kisumu,B003,Jersey,Pure Exotic,71.6,15.2,6,5.7,9,8.3
+33,Kisumu,B004,Sahiwal,Pure Indigenous,96.5,13.6,9,8.5,7,8.1
+33,Kisumu,B005,Boran,Pure Indigenous,96.0,9.2,9,8.5,6,8.6
+33,Kisumu,B006,Friesian × Sahiwal,Crossbreed,96.6,20.0,7,6.6,8,8.4
+33,Kisumu,B007,Ayrshire × Sahiwal,Crossbreed,82.4,19.1,7,6.6,7,8.2
+33,Kisumu,B008,Jersey × Sahiwal,Crossbreed,87.6,17.0,8,7.5,8,8.2
+33,Kisumu,B009,Friesian × Boran,Crossbreed,76.4,19.3,7,6.6,7,8.4
+33,Kisumu,B010,Ayrshire × Boran,Crossbreed,93.2,16.7,7,7.5,7,8.4
+34,Siaya,B001,Friesian,Pure Exotic,87.6,20.5,3,3.8,8,8.4
+34,Siaya,B002,Ayrshire,Pure Exotic,77.0,19.0,5,4.7,7,8.1
+34,Siaya,B003,Jersey,Pure Exotic,96.6,13.9,6,5.7,9,8.4
+34,Siaya,B004,Sahiwal,Pure Indigenous,98.9,13.1,9,8.5,7,7.9
+34,Siaya,B005,Boran,Pure Indigenous,99.8,9.8,9,8.5,6,8.6
+34,Siaya,B006,Friesian × Sahiwal,Crossbreed,94.1,20.4,7,6.6,8,8.3
+34,Siaya,B007,Ayrshire × Sahiwal,Crossbreed,94.4,17.8,7,6.6,7,8.2
+34,Siaya,B008,Jersey × Sahiwal,Crossbreed,95.8,16.8,8,7.6,8,8.0
+34,Siaya,B009,Friesian × Boran,Crossbreed,85.6,19.4,7,6.6,7,8.2
+34,Siaya,B010,Ayrshire × Boran,Crossbreed,96.1,16.1,7,7.6,7,8.3
+35,Homa Bay,B001,Friesian,Pure Exotic,63.9,23.5,3,3.8,8,8.4
+35,Homa Bay,B002,Ayrshire,Pure Exotic,71.4,17.3,5,4.7,7,8.3
+35,Homa Bay,B003,Jersey,Pure Exotic,71.4,15.8,6,5.6,9,8.2
+35,Homa Bay,B004,Sahiwal,Pure Indigenous,98.3,13.0,9,8.4,7,8.7
+35,Homa Bay,B005,Boran,Pure Indigenous,96.7,9.4,9,8.4,6,8.4
+35,Homa Bay,B006,Friesian × Sahiwal,Crossbreed,96.0,17.2,7,6.6,8,8.3
+35,Homa Bay,B007,Ayrshire × Sahiwal,Crossbreed,95.2,16.0,7,6.6,7,8.1
+35,Homa Bay,B008,Jersey × Sahiwal,Crossbreed,96.5,13.8,8,7.5,8,8.7
+35,Homa Bay,B009,Friesian × Boran,Crossbreed,94.9,16.2,7,6.6,7,8.3
+35,Homa Bay,B010,Ayrshire × Boran,Crossbreed,97.6,14.0,7,7.5,7,8.0
+36,Migori,B001,Friesian,Pure Exotic,66.3,21.4,3,3.8,8,8.6
+36,Migori,B002,Ayrshire,Pure Exotic,80.7,17.4,5,4.7,7,8.5
+36,Migori,B003,Jersey,Pure Exotic,72.2,14.8,6,5.6,9,8.9
+36,Migori,B004,Sahiwal,Pure Indigenous,97.3,13.3,9,8.5,7,8.4
+36,Migori,B005,Boran,Pure Indigenous,96.8,9.5,9,8.5,6,8.4
+36,Migori,B006,Friesian × Sahiwal,Crossbreed,86.5,21.2,7,6.6,8,8.8
+36,Migori,B007,Ayrshire × Sahiwal,Crossbreed,83.1,19.5,7,6.6,7,8.3
+36,Migori,B008,Jersey × Sahiwal,Crossbreed,90.7,17.8,8,7.5,8,8.1
+36,Migori,B009,Friesian × Boran,Crossbreed,86.0,18.5,7,6.6,7,8.5
+36,Migori,B010,Ayrshire × Boran,Crossbreed,79.1,17.6,7,7.5,7,8.2
+37,Kisii,B001,Friesian,Pure Exotic,82.4,27.7,3,3.8,8,8.5
+37,Kisii,B002,Ayrshire,Pure Exotic,92.4,22.6,5,4.8,7,8.7
+37,Kisii,B003,Jersey,Pure Exotic,97.2,18.8,6,5.7,9,8.3
+37,Kisii,B004,Sahiwal,Pure Indigenous,95.5,13.2,9,8.6,7,8.0
+37,Kisii,B005,Boran,Pure Indigenous,94.6,9.6,9,8.6,6,8.0
+37,Kisii,B006,Friesian × Sahiwal,Crossbreed,94.0,20.9,7,6.7,8,8.4
+37,Kisii,B007,Ayrshire × Sahiwal,Crossbreed,96.4,20.1,7,6.7,7,8.0
+37,Kisii,B008,Jersey × Sahiwal,Crossbreed,93.6,16.5,8,7.6,8,8.2
+37,Kisii,B009,Friesian × Boran,Crossbreed,94.5,18.8,7,6.7,7,8.2
+37,Kisii,B010,Ayrshire × Boran,Crossbreed,96.6,16.7,7,7.6,7,8.3
+38,Nyamira,B001,Friesian,Pure Exotic,79.3,29.5,3,3.8,8,8.2
+38,Nyamira,B002,Ayrshire,Pure Exotic,94.7,22.5,5,4.8,7,8.2
+38,Nyamira,B003,Jersey,Pure Exotic,94.0,19.2,6,5.7,9,8.2
+38,Nyamira,B004,Sahiwal,Pure Indigenous,95.4,13.6,9,8.6,7,8.5
+38,Nyamira,B005,Boran,Pure Indigenous,87.5,9.4,9,8.6,6,8.1
+38,Nyamira,B006,Friesian × Sahiwal,Crossbreed,95.3,21.6,7,6.7,8,8.4
+38,Nyamira,B007,Ayrshire × Sahiwal,Crossbreed,89.6,18.5,7,6.7,7,8.0
+38,Nyamira,B008,Jersey × Sahiwal,Crossbreed,96.6,16.5,8,7.7,8,8.2
+38,Nyamira,B009,Friesian × Boran,Crossbreed,93.0,19.4,7,6.7,7,8.6
+38,Nyamira,B010,Ayrshire × Boran,Crossbreed,97.9,17.2,7,7.7,7,8.8
+39,Kakamega,B001,Friesian,Pure Exotic,72.4,28.8,3,3.8,8,8.6
+39,Kakamega,B002,Ayrshire,Pure Exotic,83.0,23.1,5,4.8,7,8.4
+39,Kakamega,B003,Jersey,Pure Exotic,96.0,19.2,6,5.7,9,8.4
+39,Kakamega,B004,Sahiwal,Pure Indigenous,98.3,14.2,9,8.6,7,8.3
+39,Kakamega,B005,Boran,Pure Indigenous,93.5,9.6,9,8.6,6,8.4
+39,Kakamega,B006,Friesian × Sahiwal,Crossbreed,93.8,20.8,7,6.7,8,8.4
+39,Kakamega,B007,Ayrshire × Sahiwal,Crossbreed,94.8,19.7,7,6.7,7,8.4
+39,Kakamega,B008,Jersey × Sahiwal,Crossbreed,97.8,17.1,8,7.6,8,8.8
+39,Kakamega,B009,Friesian × Boran,Crossbreed,96.4,19.0,7,6.7,7,8.1
+39,Kakamega,B010,Ayrshire × Boran,Crossbreed,95.7,17.3,7,7.6,7,8.0
+40,Vihiga,B001,Friesian,Pure Exotic,82.3,28.7,3,3.8,8,8.5
+40,Vihiga,B002,Ayrshire,Pure Exotic,91.7,21.3,5,4.8,7,8.4
+40,Vihiga,B003,Jersey,Pure Exotic,95.0,18.4,6,5.7,9,8.3
+40,Vihiga,B004,Sahiwal,Pure Indigenous,98.1,13.6,9,8.6,7,8.8
+40,Vihiga,B005,Boran,Pure Indigenous,91.8,9.5,9,8.6,6,8.6
+40,Vihiga,B006,Friesian × Sahiwal,Crossbreed,97.4,21.5,7,6.7,8,8.2
+40,Vihiga,B007,Ayrshire × Sahiwal,Crossbreed,96.0,18.5,7,6.7,7,8.5
+40,Vihiga,B008,Jersey × Sahiwal,Crossbreed,94.9,16.9,8,7.6,8,8.0
+40,Vihiga,B009,Friesian × Boran,Crossbreed,97.2,19.6,7,6.7,7,8.7
+40,Vihiga,B010,Ayrshire × Boran,Crossbreed,96.6,17.0,7,7.6,7,8.4
+41,Bungoma,B001,Friesian,Pure Exotic,70.8,30.3,3,3.8,8,8.4
+41,Bungoma,B002,Ayrshire,Pure Exotic,83.2,22.6,5,4.7,7,8.0
+41,Bungoma,B003,Jersey,Pure Exotic,87.8,19.6,6,5.7,9,8.0
+41,Bungoma,B004,Sahiwal,Pure Indigenous,98.8,14.0,9,8.5,7,8.6
+41,Bungoma,B005,Boran,Pure Indigenous,93.6,9.2,9,8.5,6,8.8
+41,Bungoma,B006,Friesian × Sahiwal,Crossbreed,95.2,19.9,7,6.6,8,8.1
+41,Bungoma,B007,Ayrshire × Sahiwal,Crossbreed,99.5,18.2,7,6.6,7,8.3
+41,Bungoma,B008,Jersey × Sahiwal,Crossbreed,95.0,15.8,8,7.6,8,8.5
+41,Bungoma,B009,Friesian × Boran,Crossbreed,87.4,19.2,7,6.6,7,8.4
+41,Bungoma,B010,Ayrshire × Boran,Crossbreed,97.5,15.9,7,7.6,7,8.4
+42,Busia,B001,Friesian,Pure Exotic,47.6,22.6,3,3.8,8,7.8
+42,Busia,B002,Ayrshire,Pure Exotic,72.5,19.1,5,4.7,7,8.3
+42,Busia,B003,Jersey,Pure Exotic,64.0,16.2,6,5.7,9,8.8
+42,Busia,B004,Sahiwal,Pure Indigenous,96.6,13.3,9,8.5,7,8.6
+42,Busia,B005,Boran,Pure Indigenous,97.6,9.4,9,8.5,6,8.6
+42,Busia,B006,Friesian × Sahiwal,Crossbreed,65.2,17.9,7,6.6,8,8.5
+42,Busia,B007,Ayrshire × Sahiwal,Crossbreed,88.0,16.5,7,6.6,7,8.1
+42,Busia,B008,Jersey × Sahiwal,Crossbreed,98.3,15.5,8,7.5,8,8.1
+42,Busia,B009,Friesian × Boran,Crossbreed,95.1,16.2,7,6.6,7,8.4
+42,Busia,B010,Ayrshire × Boran,Crossbreed,93.8,14.8,7,7.5,7,8.3
+43,Turkana,B001,Friesian,Pure Exotic,20.2,5.6,3,3.6,8,8.1
+43,Turkana,B002,Ayrshire,Pure Exotic,26.6,4.2,5,4.5,7,8.4
+43,Turkana,B003,Jersey,Pure Exotic,33.0,4.1,6,5.4,9,8.4
+43,Turkana,B004,Sahiwal,Pure Indigenous,69.3,11.2,9,8.1,7,8.2
+43,Turkana,B005,Boran,Pure Indigenous,73.4,8.3,9,8.1,6,8.2
+43,Turkana,B006,Friesian × Sahiwal,Crossbreed,58.9,11.5,7,6.3,8,8.1
+43,Turkana,B007,Ayrshire × Sahiwal,Crossbreed,59.5,10.2,7,6.3,7,8.0
+43,Turkana,B008,Jersey × Sahiwal,Crossbreed,56.7,10.2,8,7.2,8,8.4
+43,Turkana,B009,Friesian × Boran,Crossbreed,59.2,9.6,7,6.3,7,8.8
+43,Turkana,B010,Ayrshire × Boran,Crossbreed,53.3,9.9,7,7.2,7,8.5
+44,West Pokot,B001,Friesian,Pure Exotic,58.5,16.4,3,3.7,8,8.1
+44,West Pokot,B002,Ayrshire,Pure Exotic,67.2,12.0,5,4.6,7,8.6
+44,West Pokot,B003,Jersey,Pure Exotic,77.9,10.4,6,5.5,9,8.6
+44,West Pokot,B004,Sahiwal,Pure Indigenous,97.0,12.6,9,8.3,7,8.2
+44,West Pokot,B005,Boran,Pure Indigenous,96.0,8.6,9,8.3,6,8.4
+44,West Pokot,B006,Friesian × Sahiwal,Crossbreed,72.6,18.9,7,6.5,8,8.6
+44,West Pokot,B007,Ayrshire × Sahiwal,Crossbreed,83.4,16.8,7,6.5,7,8.5
+44,West Pokot,B008,Jersey × Sahiwal,Crossbreed,89.7,15.2,8,7.4,8,8.4
+44,West Pokot,B009,Friesian × Boran,Crossbreed,74.3,16.5,7,6.5,7,8.3
+44,West Pokot,B010,Ayrshire × Boran,Crossbreed,79.0,15.3,7,7.4,7,8.4
+45,Samburu,B001,Friesian,Pure Exotic,54.4,16.0,3,3.7,8,8.6
+45,Samburu,B002,Ayrshire,Pure Exotic,50.2,13.9,5,4.6,7,8.6
+45,Samburu,B003,Jersey,Pure Exotic,57.1,12.0,6,5.5,9,8.4
+45,Samburu,B004,Sahiwal,Pure Indigenous,90.7,12.8,9,8.3,7,8.6
+45,Samburu,B005,Boran,Pure Indigenous,95.9,9.2,9,8.3,6,8.1
+45,Samburu,B006,Friesian × Sahiwal,Crossbreed,74.3,17.8,7,6.4,8,8.8
+45,Samburu,B007,Ayrshire × Sahiwal,Crossbreed,88.4,15.4,7,6.4,7,8.3
+45,Samburu,B008,Jersey × Sahiwal,Crossbreed,86.5,15.3,8,7.3,8,8.6
+45,Samburu,B009,Friesian × Boran,Crossbreed,84.0,16.2,7,6.4,7,8.7
+45,Samburu,B010,Ayrshire × Boran,Crossbreed,74.1,15.1,7,7.3,7,8.1
+46,Nandi,B001,Friesian,Pure Exotic,93.0,28.6,3,3.8,8,8.2
+46,Nandi,B002,Ayrshire,Pure Exotic,95.0,22.9,5,4.8,7,8.4
+46,Nandi,B003,Jersey,Pure Exotic,98.1,19.4,6,5.8,9,8.4
+46,Nandi,B004,Sahiwal,Pure Indigenous,95.0,13.6,9,8.7,7,8.5
+46,Nandi,B005,Boran,Pure Indigenous,86.0,9.4,9,8.7,6,8.3
+46,Nandi,B006,Friesian × Sahiwal,Crossbreed,94.3,21.3,7,6.7,8,8.6
+46,Nandi,B007,Ayrshire × Sahiwal,Crossbreed,95.1,19.0,7,6.7,7,8.0
+46,Nandi,B008,Jersey × Sahiwal,Crossbreed,93.6,16.2,8,7.7,8,8.2
+46,Nandi,B009,Friesian × Boran,Crossbreed,97.2,19.4,7,6.7,7,8.6
+46,Nandi,B010,Ayrshire × Boran,Crossbreed,92.6,16.8,7,7.7,7,8.5
+47,Kericho,B001,Friesian,Pure Exotic,94.4,27.2,3,3.9,8,8.7
+47,Kericho,B002,Ayrshire,Pure Exotic,94.0,22.6,5,4.8,7,8.6
+47,Kericho,B003,Jersey,Pure Exotic,95.6,18.4,6,5.8,9,8.7
+47,Kericho,B004,Sahiwal,Pure Indigenous,85.4,13.0,9,8.7,7,8.4
+47,Kericho,B005,Boran,Pure Indigenous,91.0,9.5,9,8.7,6,8.2
+47,Kericho,B006,Friesian × Sahiwal,Crossbreed,97.7,20.5,7,6.8,8,8.7
+47,Kericho,B007,Ayrshire × Sahiwal,Crossbreed,93.6,19.1,7,6.8,7,8.4
+47,Kericho,B008,Jersey × Sahiwal,Crossbreed,92.0,16.6,8,7.7,8,8.3
+47,Kericho,B009,Friesian × Boran,Crossbreed,93.6,18.8,7,6.8,7,8.3
+47,Kericho,B010,Ayrshire × Boran,Crossbreed,89.0,16.2,7,7.7,7,8.8

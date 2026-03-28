@@ -1,0 +1,151 @@
+record_id,county_id,county_name,breed_id,breed_name,overall_suitability,expert_suitability_score,absolute_error,expert_confidence,expert_notes,expert_id,validation_date
+11112,28,Mombasa,B009,Friesian × Boran,52.6,55.1,2.5,9,Manageable with inputs,EXP01,2025-06-15
+10710,18,Kitui,B008,Jersey × Sahiwal,94.6,93.4,1.2,8,Poor match,EXP04,2025-06-16
+11571,40,Vihiga,B003,Jersey,91.6,95.5,3.9,9,Manageable with inputs,EXP05,2025-06-17
+10808,21,Embu,B003,Jersey,91.0,91.4,0.4,9,Ideal for this zone,EXP04,2025-06-18
+10270,7,Uasin Gishu,B008,Jersey × Sahiwal,72.3,70.6,1.7,8,Severe heat stress expected,EXP03,2025-06-19
+11285,33,Kisumu,B002,Ayrshire,50.0,51.0,1.0,8,Not recommended,EXP05,2025-06-20
+10888,23,Isiolo,B003,Jersey,41.5,42.2,0.7,8,Shows promise,EXP04,2025-06-21
+11244,32,Tana River,B002,Ayrshire,30.5,32.0,1.5,9,Manageable with inputs,EXP03,2025-06-22
+11814,46,Nandi,B004,Sahiwal,97.4,95.1,2.3,8,Excellent for highlands,EXP04,2025-06-23
+11310,33,Kisumu,B008,Jersey × Sahiwal,96.1,97.8,1.7,9,Excellent for highlands,EXP04,2025-06-24
+10429,11,Laikipia,B008,Jersey × Sahiwal,95.9,91.6,4.3,9,Manageable with inputs,EXP05,2025-06-25
+10218,6,Nakuru,B005,Boran,98.4,94.6,3.8,9,Struggles in coastal heat,EXP03,2025-06-26
+10453,12,Narok,B004,Sahiwal,96.7,91.9,4.8,9,Poor match,EXP01,2025-06-27
+11737,44,West Pokot,B005,Boran,90.9,95.4,4.5,9,Good adaptation,EXP02,2025-06-28
+10251,7,Uasin Gishu,B003,Jersey,95.2,98.1,2.9,8,Severe heat stress expected,EXP05,2025-06-29
+10942,24,Mandera,B006,Friesian × Sahiwal,50.7,52.2,1.5,8,Perfect adaptation to ASALs,EXP03,2025-06-30
+11105,28,Mombasa,B007,Ayrshire × Sahiwal,55.3,55.4,0.1,9,Ideal for this zone,EXP04,2025-07-01
+10677,17,Makueni,B010,Ayrshire × Boran,95.2,93.3,1.9,9,Good but needs management,EXP03,2025-07-02
+11170,30,Taita Taveta,B003,Jersey,46.5,44.9,1.6,8,Good but needs management,EXP02,2025-07-03
+10909,23,Isiolo,B008,Jersey × Sahiwal,56.9,55.7,1.2,8,Excellent for highlands,EXP02,2025-07-04
+10582,15,Bomet,B006,Friesian × Sahiwal,94.2,93.0,1.2,9,Optimal for this region,EXP01,2025-07-05
+11650,42,Busia,B003,Jersey,52.9,54.3,1.4,9,Perfect adaptation to ASALs,EXP01,2025-07-06
+10879,22,Marsabit,B010,Ayrshire × Boran,91.1,91.5,0.4,8,Good but needs management,EXP02,2025-07-07
+11444,37,Kisii,B002,Ayrshire,94.6,90.6,4.0,8,Underutilizes potential,EXP05,2025-07-08
+11328,34,Siaya,B003,Jersey,95.2,90.6,4.6,9,Underutilizes potential,EXP05,2025-07-09
+11746,44,West Pokot,B007,Ayrshire × Sahiwal,94.9,91.1,3.8,8,Good adaptation,EXP04,2025-07-10
+10772,20,Tharaka Nithi,B004,Sahiwal,100.0,99.1,0.9,8,Perfect adaptation to ASALs,EXP01,2025-07-11
+10591,15,Bomet,B008,Jersey × Sahiwal,84.1,87.7,3.6,9,Underutilizes potential,EXP04,2025-07-12
+11210,31,Lamu,B003,Jersey,79.1,80.2,1.1,9,Underutilizes potential,EXP01,2025-07-13
+11232,31,Lamu,B009,Friesian × Boran,54.2,55.8,1.6,9,Excellent for highlands,EXP02,2025-07-14
+10109,3,Nyeri,B008,Jersey × Sahiwal,93.6,93.3,0.3,8,Good but needs management,EXP05,2025-07-15
+10111,3,Nyeri,B008,Jersey × Sahiwal,97.9,96.5,1.4,9,Good adaptation,EXP05,2025-07-16
+11720,44,West Pokot,B001,Friesian,38.6,37.1,1.5,8,Severe heat stress expected,EXP02,2025-07-17
+11622,41,Bungoma,B006,Friesian × Sahiwal,98.8,102.5,3.7,9,Manageable with inputs,EXP04,2025-07-18
+10937,24,Mandera,B005,Boran,95.4,98.1,2.7,9,Not recommended,EXP04,2025-07-19
+10350,9,Elgeyo Marakwet,B008,Jersey × Sahiwal,97.9,94.7,3.2,8,Ideal for this zone,EXP03,2025-07-20
+11169,30,Taita Taveta,B003,Jersey,91.5,91.6,0.1,8,Ideal for this zone,EXP01,2025-07-21
+11061,27,Kilifi,B006,Friesian × Sahiwal,93.9,93.8,0.1,9,Optimal for this region,EXP04,2025-07-22
+11252,32,Tana River,B004,Sahiwal,100.0,101.3,1.3,9,Average performance,EXP02,2025-07-23
+11050,27,Kilifi,B003,Jersey,80.3,83.9,3.6,8,Shows promise,EXP04,2025-07-24
+11009,26,Garissa,B003,Jersey,33.0,33.3,0.3,9,Not recommended,EXP05,2025-07-25
+10941,24,Mandera,B006,Friesian × Sahiwal,49.1,49.3,0.2,8,Poor match,EXP01,2025-07-26
+11087,28,Mombasa,B002,Ayrshire,47.0,44.9,2.1,8,Not recommended,EXP03,2025-07-27
+10361,10,Baringo,B001,Friesian,38.9,37.2,1.7,9,Ideal for this zone,EXP01,2025-07-28
+11007,26,Garissa,B002,Ayrshire,28.8,27.9,0.9,8,Ideal for this zone,EXP05,2025-07-29
+10767,20,Tharaka Nithi,B002,Ayrshire,92.7,88.4,4.3,8,Severe heat stress expected,EXP05,2025-07-30
+11480,38,Nyamira,B001,Friesian,90.6,92.8,2.2,8,Perfect adaptation to ASALs,EXP05,2025-07-31
+10596,15,Bomet,B010,Ayrshire × Boran,100.0,102.2,2.2,9,Perfect adaptation to ASALs,EXP05,2025-08-01
+11474,37,Kisii,B009,Friesian × Boran,92.4,89.0,3.4,8,Severe heat stress expected,EXP02,2025-08-02
+11351,34,Siaya,B008,Jersey × Sahiwal,98.7,102.0,3.3,9,Good but needs management,EXP03,2025-08-03
+10331,9,Elgeyo Marakwet,B003,Jersey,97.2,93.8,3.4,9,Not recommended,EXP05,2025-08-04
+11675,42,Busia,B009,Friesian × Boran,92.8,91.0,1.8,9,Struggles in coastal heat,EXP05,2025-08-05
+11068,27,Kilifi,B008,Jersey × Sahiwal,98.9,96.4,2.5,8,Not recommended,EXP04,2025-08-06
+11283,33,Kisumu,B001,Friesian,90.6,89.4,1.2,8,Shows promise,EXP03,2025-08-07
+10643,17,Makueni,B001,Friesian,39.4,38.4,1.0,9,Ideal for this zone,EXP01,2025-08-08
+10519,13,Kajiado,B010,Ayrshire × Boran,97.1,97.0,0.1,9,Average performance,EXP03,2025-08-09
+11231,31,Lamu,B008,Jersey × Sahiwal,57.6,57.1,0.5,8,Poor match,EXP03,2025-08-10
+11523,39,Kakamega,B001,Friesian,88.6,92.9,4.3,9,Not recommended,EXP03,2025-08-11
+11259,32,Tana River,B005,Boran,100.0,95.6,4.4,9,Ideal for this zone,EXP05,2025-08-12
+10693,18,Kitui,B004,Sahiwal,97.8,94.3,3.5,8,Not recommended,EXP05,2025-08-13
+11561,40,Vihiga,B001,Friesian,53.2,50.8,2.4,9,Shows promise,EXP02,2025-08-14
+10809,21,Embu,B003,Jersey,96.8,98.0,1.2,8,Good but needs management,EXP01,2025-08-15
+10239,6,Nakuru,B010,Ayrshire × Boran,100.0,95.5,4.5,8,Manageable with inputs,EXP04,2025-08-16
+10744,19,Meru,B007,Ayrshire × Sahiwal,91.9,95.0,3.1,9,Struggles in coastal heat,EXP03,2025-08-17
+11343,34,Siaya,B006,Friesian × Sahiwal,91.8,91.9,0.1,8,Optimal for this region,EXP01,2025-08-18
+10065,2,Nyandarua,B007,Ayrshire × Sahiwal,95.2,95.5,0.3,8,Underutilizes potential,EXP01,2025-08-19
+10534,14,Kericho,B004,Sahiwal,92.3,92.9,0.6,8,Severe heat stress expected,EXP02,2025-08-20
+10322,9,Elgeyo Marakwet,B001,Friesian,96.7,93.5,3.2,9,Severe heat stress expected,EXP04,2025-08-21
+11161,30,Taita Taveta,B001,Friesian,41.5,40.2,1.3,9,Optimal for this region,EXP03,2025-08-22
+10029,1,Kiambu,B008,Jersey × Sahiwal,98.6,96.8,1.8,9,Struggles in coastal heat,EXP04,2025-08-23
+11711,43,Turkana,B008,Jersey × Sahiwal,53.0,53.5,0.5,8,Average performance,EXP02,2025-08-24
+10483,13,Kajiado,B001,Friesian,42.4,41.2,1.2,8,Not recommended,EXP05,2025-08-25
+10465,12,Narok,B007,Ayrshire × Sahiwal,83.4,80.2,3.2,9,Underutilizes potential,EXP01,2025-08-26
+10275,7,Uasin Gishu,B009,Friesian × Boran,94.3,98.7,4.4,9,Shows promise,EXP03,2025-08-27
+10420,11,Laikipia,B006,Friesian × Sahiwal,91.4,87.0,4.4,8,Perfect adaptation to ASALs,EXP05,2025-08-28
+11358,34,Siaya,B010,Ayrshire × Boran,97.1,100.0,2.9,9,Not recommended,EXP02,2025-08-29
+11386,35,Homa Bay,B007,Ayrshire × Sahiwal,97.6,100.4,2.8,9,Good but needs management,EXP04,2025-08-30
+11625,41,Bungoma,B007,Ayrshire × Sahiwal,99.9,97.9,2.0,9,Ideal for this zone,EXP01,2025-08-31
+11329,34,Siaya,B003,Jersey,97.2,93.7,3.5,9,Optimal for this region,EXP03,2025-09-01
+10237,6,Nakuru,B010,Ayrshire × Boran,94.3,91.0,3.3,9,Good adaptation,EXP05,2025-09-02
+11771,45,Samburu,B003,Jersey,45.4,46.3,0.9,8,Not recommended,EXP05,2025-09-03
+11689,43,Turkana,B003,Jersey,33.5,34.0,0.5,9,Manageable with inputs,EXP01,2025-09-04
+10495,13,Kajiado,B004,Sahiwal,100.0,102.8,2.8,9,Average performance,EXP04,2025-09-05
+10247,7,Uasin Gishu,B002,Ayrshire,94.5,98.6,4.1,8,Poor match,EXP02,2025-09-06
+10610,16,Machakos,B003,Jersey,85.8,87.4,1.6,8,Average performance,EXP04,2025-09-07
+11211,31,Lamu,B003,Jersey,39.3,37.9,1.4,8,Good adaptation,EXP04,2025-09-08
+10450,12,Narok,B003,Jersey,97.2,94.7,2.5,8,Not recommended,EXP04,2025-09-09
+11394,35,Homa Bay,B009,Friesian × Boran,92.9,96.1,3.2,9,Struggles in coastal heat,EXP01,2025-09-10
+11058,27,Kilifi,B005,Boran,91.8,89.1,2.7,9,Manageable with inputs,EXP01,2025-09-11
+10307,8,Trans Nzoia,B007,Ayrshire × Sahiwal,96.7,92.6,4.1,9,Good adaptation,EXP02,2025-09-12
+11676,42,Busia,B010,Ayrshire × Boran,98.3,100.3,2.0,9,Not recommended,EXP04,2025-09-13
+10303,8,Trans Nzoia,B006,Friesian × Sahiwal,99.1,98.1,1.0,8,Severe heat stress expected,EXP01,2025-09-14
+11546,39,Kakamega,B007,Ayrshire × Sahiwal,94.1,98.1,4.0,8,Manageable with inputs,EXP02,2025-09-15
+11517,38,Nyamira,B010,Ayrshire × Boran,100.0,101.5,1.5,9,Average performance,EXP02,2025-09-16
+10743,19,Meru,B006,Friesian × Sahiwal,95.3,91.4,3.9,9,Good adaptation,EXP04,2025-09-17
+10736,19,Meru,B005,Boran,98.1,102.5,4.4,9,Average performance,EXP03,2025-09-18
+10756,19,Meru,B010,Ayrshire × Boran,98.8,96.4,2.4,9,Not recommended,EXP04,2025-09-19
+11023,26,Garissa,B006,Friesian × Sahiwal,53.2,52.3,0.9,8,Average performance,EXP03,2025-09-20
+11168,30,Taita Taveta,B003,Jersey,88.0,87.1,0.9,9,Perfect adaptation to ASALs,EXP02,2025-09-21
+11022,26,Garissa,B006,Friesian × Sahiwal,52.1,49.8,2.3,8,Ideal for this zone,EXP01,2025-09-22
+10715,18,Kitui,B009,Friesian × Boran,56.5,56.5,0.0,8,Perfect adaptation to ASALs,EXP05,2025-09-23
+11298,33,Kisumu,B005,Boran,96.7,93.1,3.6,8,Optimal for this region,EXP02,2025-09-24
+10518,13,Kajiado,B010,Ayrshire × Boran,99.6,98.6,1.0,8,Optimal for this region,EXP01,2025-09-25
+11456,37,Kisii,B005,Boran,100.0,98.5,1.5,9,Underutilizes potential,EXP02,2025-09-26
+11230,31,Lamu,B008,Jersey × Sahiwal,80.5,82.7,2.2,9,Not recommended,EXP04,2025-09-27
+11677,42,Busia,B010,Ayrshire × Boran,94.3,97.2,2.9,9,Excellent for highlands,EXP03,2025-09-28
+11595,40,Vihiga,B009,Friesian × Boran,100.0,96.5,3.5,9,Good but needs management,EXP02,2025-09-29
+10352,9,Elgeyo Marakwet,B009,Friesian × Boran,94.4,93.1,1.3,8,Average performance,EXP01,2025-09-30
+10439,11,Laikipia,B010,Ayrshire × Boran,97.9,96.7,1.2,8,Perfect adaptation to ASALs,EXP04,2025-10-01
+10366,10,Baringo,B002,Ayrshire,85.2,82.2,3.0,8,Good adaptation,EXP05,2025-10-02
+11567,40,Vihiga,B002,Ayrshire,90.0,92.7,2.7,9,Struggles in coastal heat,EXP04,2025-10-03
+11575,40,Vihiga,B004,Sahiwal,96.9,98.9,2.0,8,Poor match,EXP03,2025-10-04
+11630,41,Bungoma,B008,Jersey × Sahiwal,92.8,89.9,2.9,8,Manageable with inputs,EXP04,2025-10-05
+11118,28,Mombasa,B010,Ayrshire × Boran,96.5,95.2,1.3,8,Good but needs management,EXP05,2025-10-06
+11812,46,Nandi,B004,Sahiwal,98.6,94.7,3.9,8,Excellent for highlands,EXP01,2025-10-07
+10704,18,Kitui,B007,Ayrshire × Sahiwal,93.9,95.1,1.2,9,Average performance,EXP02,2025-10-08
+10398,10,Baringo,B010,Ayrshire × Boran,54.7,52.6,2.1,8,Shows promise,EXP03,2025-10-09
+10203,6,Nakuru,B001,Friesian,98.3,103.1,4.8,8,Not recommended,EXP05,2025-10-10
+10070,2,Nyandarua,B008,Jersey × Sahiwal,98.7,101.5,2.8,9,Struggles in coastal heat,EXP03,2025-10-11
+10609,16,Machakos,B003,Jersey,91.7,90.7,1.0,9,Not recommended,EXP04,2025-10-12
+11356,34,Siaya,B010,Ayrshire × Boran,93.8,94.5,0.7,9,Underutilizes potential,EXP03,2025-10-13
+11047,27,Kilifi,B002,Ayrshire,66.8,69.5,2.7,8,Excellent for highlands,EXP05,2025-10-14
+11543,39,Kakamega,B006,Friesian × Sahiwal,92.0,92.5,0.5,8,Manageable with inputs,EXP02,2025-10-15
+10231,6,Nakuru,B008,Jersey × Sahiwal,99.2,96.0,3.2,8,Average performance,EXP02,2025-10-16
+11378,35,Homa Bay,B005,Boran,95.1,93.9,1.2,8,Manageable with inputs,EXP03,2025-10-17
+11196,30,Taita Taveta,B010,Ayrshire × Boran,97.9,101.3,3.4,9,Not recommended,EXP01,2025-10-18
+11870,47,Kericho,B008,Jersey × Sahiwal,96.8,98.2,1.4,8,Good adaptation,EXP03,2025-10-19
+10414,11,Laikipia,B004,Sahiwal,97.0,98.5,1.5,8,Underutilizes potential,EXP04,2025-10-20
+11353,34,Siaya,B009,Friesian × Boran,92.3,95.7,3.4,9,Severe heat stress expected,EXP02,2025-10-21
+10135,4,Muranga,B004,Sahiwal,81.1,84.3,3.2,9,Shows promise,EXP02,2025-10-22
+11507,38,Nyamira,B007,Ayrshire × Sahiwal,89.3,93.0,3.7,9,Excellent for highlands,EXP02,2025-10-23
+10583,15,Bomet,B006,Friesian × Sahiwal,98.2,94.2,4.0,8,Ideal for this zone,EXP01,2025-10-24
+11834,46,Nandi,B009,Friesian × Boran,96.2,96.6,0.4,8,Struggles in coastal heat,EXP01,2025-10-25
+10618,16,Machakos,B005,Boran,93.6,95.9,2.3,8,Perfect adaptation to ASALs,EXP05,2025-10-26
+10575,15,Bomet,B004,Sahiwal,100.0,102.6,2.6,8,Average performance,EXP03,2025-10-27
+11040,27,Kilifi,B001,Friesian,30.6,30.9,0.3,8,Optimal for this region,EXP03,2025-10-28
+10212,6,Nakuru,B004,Sahiwal,95.3,92.1,3.2,9,Poor match,EXP04,2025-10-29
+11347,34,Siaya,B007,Ayrshire × Sahiwal,95.9,98.8,2.9,9,Not recommended,EXP02,2025-10-30
+10188,5,Kirinyaga,B008,Jersey × Sahiwal,100.0,102.2,2.2,8,Struggles in coastal heat,EXP01,2025-10-31
+10365,10,Baringo,B002,Ayrshire,82.9,79.5,3.4,8,Struggles in coastal heat,EXP04,2025-11-01
+11795,45,Samburu,B009,Friesian × Boran,54.4,54.2,0.2,8,Ideal for this zone,EXP04,2025-11-02
+11759,44,West Pokot,B010,Ayrshire × Boran,92.2,89.2,3.0,8,Ideal for this zone,EXP01,2025-11-03
+10023,1,Kiambu,B006,Friesian × Sahiwal,100.0,98.4,1.6,8,Underutilizes potential,EXP03,2025-11-04
+10480,13,Kajiado,B001,Friesian,43.2,41.1,2.1,9,Excellent for highlands,EXP02,2025-11-05
+10063,2,Nyandarua,B006,Friesian × Sahiwal,72.2,71.5,0.7,9,Good adaptation,EXP03,2025-11-06
+10289,8,Trans Nzoia,B003,Jersey,96.8,97.3,0.5,9,Shows promise,EXP04,2025-11-07
+11804,46,Nandi,B002,Ayrshire,94.5,95.6,1.1,8,Optimal for this region,EXP02,2025-11-08
+10316,8,Trans Nzoia,B010,Ayrshire × Boran,100.0,101.6,1.6,8,Manageable with inputs,EXP05,2025-11-09
+10700,18,Kitui,B006,Friesian × Sahiwal,95.0,98.2,3.2,9,Ideal for this zone,EXP04,2025-11-10
+11296,33,Kisumu,B005,Boran,99.0,96.2,2.8,9,Ideal for this zone,EXP03,2025-11-11

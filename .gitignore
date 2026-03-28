@@ -1,0 +1,27 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE
+.vscode/
+.idea/
+
+# Model files (optional - too big for GitHub)
+*.keras
+*.h5
+*.pkl
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env

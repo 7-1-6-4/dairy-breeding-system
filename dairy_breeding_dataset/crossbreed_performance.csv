@@ -1,0 +1,13 @@
+cross_name,breed_id,generation,exotic_percentage,milk_yield_min,milk_yield_max,heat_tolerance,disease_resistance,calving_interval_min,calving_interval_max,longevity_min,longevity_max
+Friesian × Sahiwal,B006,F1,50.0,18,22,7,7,410,430,9,11
+Friesian × Sahiwal,B006,F2,62.5,20,24,6,6,400,420,8,10
+Friesian × Sahiwal,B006,Backcross to Friesian,75.0,22,26,5,5,390,410,7,9
+Friesian × Sahiwal,B006,Backcross to Sahiwal,25.0,14,18,8,8,430,450,10,12
+Ayrshire × Sahiwal,B007,F1,50.0,16,20,7,7,400,420,9,11
+Ayrshire × Sahiwal,B007,F2,62.5,18,22,6,6,390,410,8,10
+Ayrshire × Sahiwal,B007,Backcross to Ayrshire,75.0,20,24,5,5,380,400,7,9
+Ayrshire × Sahiwal,B007,Backcross to Sahiwal,25.0,13,17,8,8,420,440,10,12
+Jersey × Sahiwal,B008,F1,50.0,14,18,8,8,380,400,10,12
+Jersey × Sahiwal,B008,F2,62.5,16,20,7,7,370,390,9,11
+Jersey × Sahiwal,B008,Backcross to Jersey,75.0,18,22,6,6,360,380,8,10
+Jersey × Sahiwal,B008,Backcross to Sahiwal,25.0,12,16,9,9,400,420,11,13

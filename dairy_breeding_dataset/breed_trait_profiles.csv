@@ -1,0 +1,11 @@
+breed_id,breed_name,breed_type,origin,mature_weight_kg_min,mature_weight_kg_max,height_cm_min,height_cm_max,coat_color,hump_presence,milk_yield_potential_min,milk_yield_potential_max,milk_yield_stress_min,milk_yield_stress_max,butterfat_pct,protein_pct,heat_tolerance_score,cold_tolerance_score,disease_resistance_score,parasite_resistance,feed_efficiency_score,temperament_score,calving_ease_score,longevity_years_min,longevity_years_max,age_first_calving_months_min,age_first_calving_months_max,calving_interval_days_min,calving_interval_days_max,critical_thi_threshold,sweat_gland_density,skin_thickness_mm_min,skin_thickness_mm_max,metabolic_rate
+B001,Friesian,Pure Exotic,Netherlands,650,750,145,155,Black & White,Absent,28,32,12,16,3.5,3.1,3,9,4,3,8,7,6,6,8,24,28,400,450,72,Low,3,4,High
+B002,Ayrshire,Pure Exotic,Scotland,550,650,135,145,Red & White,Absent,22,26,12,16,4.0,3.4,5,8,5,4,7,8,7,7,9,26,30,390,420,74,Low-Medium,4,5,High
+B003,Jersey,Pure Exotic,Channel Islands,400,500,120,130,Fawn/Brown,Absent,18,22,10,14,5.0,3.8,6,7,6,5,9,8,8,8,10,22,26,370,400,75,Medium,4,5,Medium-High
+B004,Sahiwal,Pure Indigenous,Pakistan/E. Africa,450,550,125,135,Reddish Brown,Present,12,16,10,14,4.5,3.5,9,4,9,9,7,7,8,10,12,32,38,420,480,82,High,6,8,Medium
+B005,Boran,Pure Indigenous,E. Africa,550,650,135,145,White/Grey,Present,8,12,7,11,4.8,3.8,9,3,9,9,6,6,9,12,15,36,42,450,520,84,High,7,9,Medium-Low
+B006,Friesian × Sahiwal,Crossbreed,Kenya,550,650,135,145,Mixed,Variable,20,24,14,18,4.0,3.3,7,6,7,7,8,7,7,8,10,28,32,400,440,78,Medium-High,5,7,Medium
+B007,Ayrshire × Sahiwal,Crossbreed,Kenya,500,600,130,140,Mixed,Variable,18,22,13,17,4.3,3.5,7,6,7,7,7,8,7,8,10,28,34,400,430,78,Medium-High,5,7,Medium
+B008,Jersey × Sahiwal,Crossbreed,Kenya,450,550,125,135,Mixed,Variable,16,20,12,16,4.8,3.7,8,5,8,8,8,8,8,9,11,26,32,380,420,79,Medium-High,5,7,Medium
+B009,Friesian × Boran,Crossbreed,Kenya,600,700,140,150,Mixed,Variable,18,22,13,17,4.2,3.4,7,5,7,7,7,6,8,9,11,30,36,420,460,77,Medium-High,6,8,Medium
+B010,Ayrshire × Boran,Crossbreed,Kenya,550,650,135,145,Mixed,Variable,16,20,12,16,4.5,3.6,7,5,8,8,7,7,8,9,11,30,36,410,450,78,Medium-High,6,8,Medium

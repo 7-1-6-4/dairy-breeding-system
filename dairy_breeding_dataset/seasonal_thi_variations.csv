@@ -1,0 +1,565 @@
+county_id,county_name,month,month_index,monthly_thi,stress_level,base_annual_thi
+1,Kiambu,Jan,1,69.2,Mild,65.8
+1,Kiambu,Feb,2,69.7,Mild,65.8
+1,Kiambu,Mar,3,65.9,None,65.8
+1,Kiambu,Apr,4,60.9,None,65.8
+1,Kiambu,May,5,60.6,None,65.8
+1,Kiambu,Jun,6,58.2,None,65.8
+1,Kiambu,Jul,7,58.2,None,65.8
+1,Kiambu,Aug,8,58.2,None,65.8
+1,Kiambu,Sep,9,71.4,Mild,65.8
+1,Kiambu,Oct,10,70.7,Mild,65.8
+1,Kiambu,Nov,11,61.3,None,65.8
+1,Kiambu,Dec,12,60.4,None,65.8
+2,Nyandarua,Jan,1,65.7,None,62.1
+2,Nyandarua,Feb,2,63.1,None,62.1
+2,Nyandarua,Mar,3,64.3,None,62.1
+2,Nyandarua,Apr,4,57.1,None,62.1
+2,Nyandarua,May,5,56.3,None,62.1
+2,Nyandarua,Jun,6,53.5,None,62.1
+2,Nyandarua,Jul,7,53.5,None,62.1
+2,Nyandarua,Aug,8,53.5,None,62.1
+2,Nyandarua,Sep,9,65.2,None,62.1
+2,Nyandarua,Oct,10,65.7,None,62.1
+2,Nyandarua,Nov,11,61.4,None,62.1
+2,Nyandarua,Dec,12,56.4,None,62.1
+3,Nyeri,Jan,1,69.8,Mild,65.2
+3,Nyeri,Feb,2,71.2,Mild,65.2
+3,Nyeri,Mar,3,67.0,None,65.2
+3,Nyeri,Apr,4,57.8,None,65.2
+3,Nyeri,May,5,59.1,None,65.2
+3,Nyeri,Jun,6,57.9,None,65.2
+3,Nyeri,Jul,7,58.3,None,65.2
+3,Nyeri,Aug,8,57.8,None,65.2
+3,Nyeri,Sep,9,69.0,Mild,65.2
+3,Nyeri,Oct,10,71.2,Mild,65.2
+3,Nyeri,Nov,11,61.4,None,65.2
+3,Nyeri,Dec,12,61.7,None,65.2
+4,Muranga,Jan,1,67.8,None,67.5
+4,Muranga,Feb,2,68.8,Mild,67.5
+4,Muranga,Mar,3,72.8,Mild,67.5
+4,Muranga,Apr,4,60.4,None,67.5
+4,Muranga,May,5,59.6,None,67.5
+4,Muranga,Jun,6,59.6,None,67.5
+4,Muranga,Jul,7,59.8,None,67.5
+4,Muranga,Aug,8,59.6,None,67.5
+4,Muranga,Sep,9,72.7,Mild,67.5
+4,Muranga,Oct,10,71.7,Mild,67.5
+4,Muranga,Nov,11,62.5,None,67.5
+4,Muranga,Dec,12,67.0,None,67.5
+5,Kirinyaga,Jan,1,72.8,Mild,68.8
+5,Kirinyaga,Feb,2,72.5,Mild,68.8
+5,Kirinyaga,Mar,3,72.9,Mild,68.8
+5,Kirinyaga,Apr,4,61.0,None,68.8
+5,Kirinyaga,May,5,64.0,None,68.8
+5,Kirinyaga,Jun,6,60.7,None,68.8
+5,Kirinyaga,Jul,7,60.7,None,68.8
+5,Kirinyaga,Aug,8,60.7,None,68.8
+5,Kirinyaga,Sep,9,75.1,Moderate,68.8
+5,Kirinyaga,Oct,10,75.1,Moderate,68.8
+5,Kirinyaga,Nov,11,64.0,None,68.8
+5,Kirinyaga,Dec,12,67.9,None,68.8
+6,Nakuru,Jan,1,69.8,Mild,64.8
+6,Nakuru,Feb,2,66.4,None,64.8
+6,Nakuru,Mar,3,65.0,None,64.8
+6,Nakuru,Apr,4,56.2,None,64.8
+6,Nakuru,May,5,59.8,None,64.8
+6,Nakuru,Jun,6,56.2,None,64.8
+6,Nakuru,Jul,7,56.2,None,64.8
+6,Nakuru,Aug,8,56.2,None,64.8
+6,Nakuru,Sep,9,71.5,Mild,64.8
+6,Nakuru,Oct,10,68.8,Mild,64.8
+6,Nakuru,Nov,11,61.0,None,64.8
+6,Nakuru,Dec,12,61.5,None,64.8
+7,Uasin Gishu,Jan,1,66.9,None,63.5
+7,Uasin Gishu,Feb,2,68.7,Mild,63.5
+7,Uasin Gishu,Mar,3,64.6,None,63.5
+7,Uasin Gishu,Apr,4,59.1,None,63.5
+7,Uasin Gishu,May,5,58.4,None,63.5
+7,Uasin Gishu,Jun,6,55.1,None,63.5
+7,Uasin Gishu,Jul,7,55.2,None,63.5
+7,Uasin Gishu,Aug,8,55.1,None,63.5
+7,Uasin Gishu,Sep,9,67.6,None,63.5
+7,Uasin Gishu,Oct,10,70.3,Mild,63.5
+7,Uasin Gishu,Nov,11,60.5,None,63.5
+7,Uasin Gishu,Dec,12,61.2,None,63.5
+8,Trans Nzoia,Jan,1,68.4,Mild,66.2
+8,Trans Nzoia,Feb,2,72.2,Mild,66.2
+8,Trans Nzoia,Mar,3,70.1,Mild,66.2
+8,Trans Nzoia,Apr,4,57.4,None,66.2
+8,Trans Nzoia,May,5,59.2,None,66.2
+8,Trans Nzoia,Jun,6,58.0,None,66.2
+8,Trans Nzoia,Jul,7,58.2,None,66.2
+8,Trans Nzoia,Aug,8,57.4,None,66.2
+8,Trans Nzoia,Sep,9,73.2,Mild,66.2
+8,Trans Nzoia,Oct,10,71.3,Mild,66.2
+8,Trans Nzoia,Nov,11,62.3,None,66.2
+8,Trans Nzoia,Dec,12,65.5,None,66.2
+9,Elgeyo Marakwet,Jan,1,69.8,Mild,64.1
+9,Elgeyo Marakwet,Feb,2,68.5,Mild,64.1
+9,Elgeyo Marakwet,Mar,3,69.6,Mild,64.1
+9,Elgeyo Marakwet,Apr,4,55.3,None,64.1
+9,Elgeyo Marakwet,May,5,60.0,None,64.1
+9,Elgeyo Marakwet,Jun,6,55.3,None,64.1
+9,Elgeyo Marakwet,Jul,7,55.3,None,64.1
+9,Elgeyo Marakwet,Aug,8,55.3,None,64.1
+9,Elgeyo Marakwet,Sep,9,70.0,Mild,64.1
+9,Elgeyo Marakwet,Oct,10,68.9,Mild,64.1
+9,Elgeyo Marakwet,Nov,11,59.7,None,64.1
+9,Elgeyo Marakwet,Dec,12,58.6,None,64.1
+10,Baringo,Jan,1,76.4,Moderate,74.2
+10,Baringo,Feb,2,78.4,Moderate,74.2
+10,Baringo,Mar,3,77.5,Moderate,74.2
+10,Baringo,Apr,4,65.6,None,74.2
+10,Baringo,May,5,68.6,Mild,74.2
+10,Baringo,Jun,6,66.0,None,74.2
+10,Baringo,Jul,7,65.0,None,74.2
+10,Baringo,Aug,8,64.8,None,74.2
+10,Baringo,Sep,9,82.5,Severe,74.2
+10,Baringo,Oct,10,79.0,Moderate,74.2
+10,Baringo,Nov,11,67.7,None,74.2
+10,Baringo,Dec,12,69.3,Mild,74.2
+11,Laikipia,Jan,1,74.5,Moderate,68.9
+11,Laikipia,Feb,2,70.6,Mild,68.9
+11,Laikipia,Mar,3,69.3,Mild,68.9
+11,Laikipia,Apr,4,59.5,None,68.9
+11,Laikipia,May,5,64.5,None,68.9
+11,Laikipia,Jun,6,59.5,None,68.9
+11,Laikipia,Jul,7,59.2,None,68.9
+11,Laikipia,Aug,8,59.2,None,68.9
+11,Laikipia,Sep,9,76.0,Moderate,68.9
+11,Laikipia,Oct,10,76.9,Moderate,68.9
+11,Laikipia,Nov,11,63.6,None,68.9
+11,Laikipia,Dec,12,68.0,None,68.9
+12,Narok,Jan,1,71.5,Mild,69.4
+12,Narok,Feb,2,74.2,Moderate,69.4
+12,Narok,Mar,3,69.5,Mild,69.4
+12,Narok,Apr,4,61.6,None,69.4
+12,Narok,May,5,61.4,None,69.4
+12,Narok,Jun,6,59.8,None,69.4
+12,Narok,Jul,7,59.8,None,69.4
+12,Narok,Aug,8,61.0,None,69.4
+12,Narok,Sep,9,74.4,Moderate,69.4
+12,Narok,Oct,10,77.6,Moderate,69.4
+12,Narok,Nov,11,68.0,Mild,69.4
+12,Narok,Dec,12,66.4,None,69.4
+13,Kajiado,Jan,1,79.3,Moderate,73.8
+13,Kajiado,Feb,2,78.7,Moderate,73.8
+13,Kajiado,Mar,3,76.4,Moderate,73.8
+13,Kajiado,Apr,4,68.7,Mild,73.8
+13,Kajiado,May,5,64.9,None,73.8
+13,Kajiado,Jun,6,63.5,None,73.8
+13,Kajiado,Jul,7,64.5,None,73.8
+13,Kajiado,Aug,8,63.5,None,73.8
+13,Kajiado,Sep,9,79.7,Moderate,73.8
+13,Kajiado,Oct,10,80.9,Severe,73.8
+13,Kajiado,Nov,11,72.5,Mild,73.8
+13,Kajiado,Dec,12,73.3,Mild,73.8
+14,Kericho,Jan,1,68.0,Mild,64.5
+14,Kericho,Feb,2,68.8,Mild,64.5
+14,Kericho,Mar,3,70.3,Mild,64.5
+14,Kericho,Apr,4,56.8,None,64.5
+14,Kericho,May,5,56.8,None,64.5
+14,Kericho,Jun,6,56.8,None,64.5
+14,Kericho,Jul,7,56.9,None,64.5
+14,Kericho,Aug,8,57.1,None,64.5
+14,Kericho,Sep,9,70.4,Mild,64.5
+14,Kericho,Oct,10,68.3,Mild,64.5
+14,Kericho,Nov,11,60.9,None,64.5
+14,Kericho,Dec,12,59.5,None,64.5
+15,Bomet,Jan,1,68.6,Mild,66.7
+15,Bomet,Feb,2,71.9,Mild,66.7
+15,Bomet,Mar,3,67.2,None,66.7
+15,Bomet,Apr,4,62.2,None,66.7
+15,Bomet,May,5,59.5,None,66.7
+15,Bomet,Jun,6,58.4,None,66.7
+15,Bomet,Jul,7,58.4,None,66.7
+15,Bomet,Aug,8,58.4,None,66.7
+15,Bomet,Sep,9,70.6,Mild,66.7
+15,Bomet,Oct,10,73.6,Mild,66.7
+15,Bomet,Nov,11,65.4,None,66.7
+15,Bomet,Dec,12,63.1,None,66.7
+16,Machakos,Jan,1,74.8,Moderate,73.2
+16,Machakos,Feb,2,80.0,Severe,73.2
+16,Machakos,Mar,3,75.7,Moderate,73.2
+16,Machakos,Apr,4,63.4,None,73.2
+16,Machakos,May,5,66.3,None,73.2
+16,Machakos,Jun,6,65.5,None,73.2
+16,Machakos,Jul,7,63.1,None,73.2
+16,Machakos,Aug,8,63.1,None,73.2
+16,Machakos,Sep,9,82.4,Severe,73.2
+16,Machakos,Oct,10,78.1,Moderate,73.2
+16,Machakos,Nov,11,66.7,None,73.2
+16,Machakos,Dec,12,70.1,Mild,73.2
+17,Makueni,Jan,1,83.1,Severe,76.5
+17,Makueni,Feb,2,80.1,Severe,76.5
+17,Makueni,Mar,3,84.1,Severe,76.5
+17,Makueni,Apr,4,70.2,Mild,76.5
+17,Makueni,May,5,65.6,None,76.5
+17,Makueni,Jun,6,68.8,Mild,76.5
+17,Makueni,Jul,7,65.2,None,76.5
+17,Makueni,Aug,8,65.2,None,76.5
+17,Makueni,Sep,9,84.6,Severe,76.5
+17,Makueni,Oct,10,82.7,Severe,76.5
+17,Makueni,Nov,11,69.5,Mild,76.5
+17,Makueni,Dec,12,68.9,Mild,76.5
+18,Kitui,Jan,1,78.6,Moderate,75.2
+18,Kitui,Feb,2,81.5,Severe,75.2
+18,Kitui,Mar,3,79.5,Moderate,75.2
+18,Kitui,Apr,4,71.4,Mild,75.2
+18,Kitui,May,5,66.1,None,75.2
+18,Kitui,Jun,6,64.1,None,75.2
+18,Kitui,Jul,7,64.1,None,75.2
+18,Kitui,Aug,8,64.1,None,75.2
+18,Kitui,Sep,9,81.1,Severe,75.2
+18,Kitui,Oct,10,84.9,Severe,75.2
+18,Kitui,Nov,11,74.5,Moderate,75.2
+18,Kitui,Dec,12,75.0,Moderate,75.2
+19,Meru,Jan,1,70.0,Mild,68.4
+19,Meru,Feb,2,74.4,Moderate,68.4
+19,Meru,Mar,3,70.6,Mild,68.4
+19,Meru,Apr,4,59.6,None,68.4
+19,Meru,May,5,64.1,None,68.4
+19,Meru,Jun,6,59.6,None,68.4
+19,Meru,Jul,7,59.6,None,68.4
+19,Meru,Aug,8,59.6,None,68.4
+19,Meru,Sep,9,73.8,Mild,68.4
+19,Meru,Oct,10,75.8,Moderate,68.4
+19,Meru,Nov,11,64.7,None,68.4
+19,Meru,Dec,12,68.3,Mild,68.4
+20,Tharaka Nithi,Jan,1,70.6,Mild,70.2
+20,Tharaka Nithi,Feb,2,72.7,Mild,70.2
+20,Tharaka Nithi,Mar,3,73.6,Mild,70.2
+20,Tharaka Nithi,Apr,4,63.2,None,70.2
+20,Tharaka Nithi,May,5,61.9,None,70.2
+20,Tharaka Nithi,Jun,6,61.3,None,70.2
+20,Tharaka Nithi,Jul,7,62.3,None,70.2
+20,Tharaka Nithi,Aug,8,62.7,None,70.2
+20,Tharaka Nithi,Sep,9,78.4,Moderate,70.2
+20,Tharaka Nithi,Oct,10,78.4,Moderate,70.2
+20,Tharaka Nithi,Nov,11,67.0,None,70.2
+20,Tharaka Nithi,Dec,12,69.0,Mild,70.2
+21,Embu,Jan,1,71.9,Mild,69.8
+21,Embu,Feb,2,72.6,Mild,69.8
+21,Embu,Mar,3,72.0,Mild,69.8
+21,Embu,Apr,4,62.6,None,69.8
+21,Embu,May,5,61.3,None,69.8
+21,Embu,Jun,6,62.6,None,69.8
+21,Embu,Jul,7,60.5,None,69.8
+21,Embu,Aug,8,60.5,None,69.8
+21,Embu,Sep,9,77.0,Moderate,69.8
+21,Embu,Oct,10,73.7,Mild,69.8
+21,Embu,Nov,11,63.6,None,69.8
+21,Embu,Dec,12,64.4,None,69.8
+22,Marsabit,Jan,1,86.2,Severe,82.4
+22,Marsabit,Feb,2,86.0,Severe,82.4
+22,Marsabit,Mar,3,89.0,Severe,82.4
+22,Marsabit,Apr,4,76.1,Moderate,82.4
+22,Marsabit,May,5,73.6,Mild,82.4
+22,Marsabit,Jun,6,71.2,Mild,82.4
+22,Marsabit,Jul,7,71.2,Mild,82.4
+22,Marsabit,Aug,8,72.3,Mild,82.4
+22,Marsabit,Sep,9,86.9,Severe,82.4
+22,Marsabit,Oct,10,86.6,Severe,82.4
+22,Marsabit,Nov,11,80.7,Severe,82.4
+22,Marsabit,Dec,12,78.1,Moderate,82.4
+23,Isiolo,Jan,1,81.9,Severe,80.8
+23,Isiolo,Feb,2,82.7,Severe,80.8
+23,Isiolo,Mar,3,88.3,Severe,80.8
+23,Isiolo,Apr,4,75.6,Moderate,80.8
+23,Isiolo,May,5,74.4,Moderate,80.8
+23,Isiolo,Jun,6,69.5,Mild,80.8
+23,Isiolo,Jul,7,69.5,Mild,80.8
+23,Isiolo,Aug,8,72.5,Mild,80.8
+23,Isiolo,Sep,9,91.2,Severe,80.8
+23,Isiolo,Oct,10,86.6,Severe,80.8
+23,Isiolo,Nov,11,79.3,Moderate,80.8
+23,Isiolo,Dec,12,74.3,Moderate,80.8
+24,Mandera,Jan,1,88.0,Severe,86.2
+24,Mandera,Feb,2,92.0,Severe,86.2
+24,Mandera,Mar,3,89.7,Severe,86.2
+24,Mandera,Apr,4,81.3,Severe,86.2
+24,Mandera,May,5,74.5,Moderate,86.2
+24,Mandera,Jun,6,74.5,Moderate,86.2
+24,Mandera,Jul,7,76.9,Moderate,86.2
+24,Mandera,Aug,8,76.8,Moderate,86.2
+24,Mandera,Sep,9,91.9,Severe,86.2
+24,Mandera,Oct,10,93.7,Severe,86.2
+24,Mandera,Nov,11,82.9,Severe,86.2
+24,Mandera,Dec,12,79.0,Moderate,86.2
+25,Wajir,Jan,1,93.8,Severe,85.5
+25,Wajir,Feb,2,93.3,Severe,85.5
+25,Wajir,Mar,3,86.9,Severe,85.5
+25,Wajir,Apr,4,73.8,Mild,85.5
+25,Wajir,May,5,73.8,Mild,85.5
+25,Wajir,Jun,6,76.2,Moderate,85.5
+25,Wajir,Jul,7,73.8,Mild,85.5
+25,Wajir,Aug,8,73.8,Mild,85.5
+25,Wajir,Sep,9,93.6,Severe,85.5
+25,Wajir,Oct,10,94.9,Severe,85.5
+25,Wajir,Nov,11,77.6,Moderate,85.5
+25,Wajir,Dec,12,78.9,Moderate,85.5
+26,Garissa,Jan,1,92.7,Severe,84.8
+26,Garissa,Feb,2,92.5,Severe,84.8
+26,Garissa,Mar,3,91.4,Severe,84.8
+26,Garissa,Apr,4,72.5,Mild,84.8
+26,Garissa,May,5,74.9,Moderate,84.8
+26,Garissa,Jun,6,73.2,Mild,84.8
+26,Garissa,Jul,7,72.5,Mild,84.8
+26,Garissa,Aug,8,75.6,Moderate,84.8
+26,Garissa,Sep,9,94.4,Severe,84.8
+26,Garissa,Oct,10,89.6,Severe,84.8
+26,Garissa,Nov,11,84.0,Severe,84.8
+26,Garissa,Dec,12,84.4,Severe,84.8
+27,Kilifi,Jan,1,79.1,Moderate,78.5
+27,Kilifi,Feb,2,82.7,Severe,78.5
+27,Kilifi,Mar,3,80.9,Severe,78.5
+27,Kilifi,Apr,4,72.4,Mild,78.5
+27,Kilifi,May,5,72.4,Mild,78.5
+27,Kilifi,Jun,6,72.4,Mild,78.5
+27,Kilifi,Jul,7,72.4,Mild,78.5
+27,Kilifi,Aug,8,72.4,Mild,78.5
+27,Kilifi,Sep,9,83.1,Severe,78.5
+27,Kilifi,Oct,10,85.2,Severe,78.5
+27,Kilifi,Nov,11,73.3,Mild,78.5
+27,Kilifi,Dec,12,77.4,Moderate,78.5
+28,Mombasa,Jan,1,83.3,Severe,79.8
+28,Mombasa,Feb,2,81.3,Severe,79.8
+28,Mombasa,Mar,3,81.3,Severe,79.8
+28,Mombasa,Apr,4,74.2,Moderate,79.8
+28,Mombasa,May,5,74.2,Moderate,79.8
+28,Mombasa,Jun,6,74.2,Moderate,79.8
+28,Mombasa,Jul,7,74.2,Moderate,79.8
+28,Mombasa,Aug,8,74.2,Moderate,79.8
+28,Mombasa,Sep,9,85.8,Severe,79.8
+28,Mombasa,Oct,10,85.8,Severe,79.8
+28,Mombasa,Nov,11,79.3,Moderate,79.8
+28,Mombasa,Dec,12,74.2,Moderate,79.8
+29,Kwale,Jan,1,81.0,Severe,78.2
+29,Kwale,Feb,2,79.4,Moderate,78.2
+29,Kwale,Mar,3,82.2,Severe,78.2
+29,Kwale,Apr,4,72.1,Mild,78.2
+29,Kwale,May,5,73.5,Mild,78.2
+29,Kwale,Jun,6,72.1,Mild,78.2
+29,Kwale,Jul,7,72.1,Mild,78.2
+29,Kwale,Aug,8,72.1,Mild,78.2
+29,Kwale,Sep,9,84.8,Severe,78.2
+29,Kwale,Oct,10,84.8,Severe,78.2
+29,Kwale,Nov,11,72.1,Mild,78.2
+29,Kwale,Dec,12,72.9,Mild,78.2
+30,Taita Taveta,Jan,1,77.6,Moderate,74.5
+30,Taita Taveta,Feb,2,76.2,Moderate,74.5
+30,Taita Taveta,Mar,3,76.0,Moderate,74.5
+30,Taita Taveta,Apr,4,66.2,None,74.5
+30,Taita Taveta,May,5,68.1,Mild,74.5
+30,Taita Taveta,Jun,6,66.2,None,74.5
+30,Taita Taveta,Jul,7,66.2,None,74.5
+30,Taita Taveta,Aug,8,66.2,None,74.5
+30,Taita Taveta,Sep,9,82.8,Severe,74.5
+30,Taita Taveta,Oct,10,82.8,Severe,74.5
+30,Taita Taveta,Nov,11,70.6,Mild,74.5
+30,Taita Taveta,Dec,12,70.1,Mild,74.5
+31,Lamu,Jan,1,85.5,Severe,79.2
+31,Lamu,Feb,2,80.8,Severe,79.2
+31,Lamu,Mar,3,80.9,Severe,79.2
+31,Lamu,Apr,4,73.5,Mild,79.2
+31,Lamu,May,5,73.5,Mild,79.2
+31,Lamu,Jun,6,73.5,Mild,79.2
+31,Lamu,Jul,7,73.5,Mild,79.2
+31,Lamu,Aug,8,73.5,Mild,79.2
+31,Lamu,Sep,9,85.5,Severe,79.2
+31,Lamu,Oct,10,85.5,Severe,79.2
+31,Lamu,Nov,11,73.5,Mild,79.2
+31,Lamu,Dec,12,73.5,Mild,79.2
+32,Tana River,Jan,1,86.7,Severe,82.1
+32,Tana River,Feb,2,87.2,Severe,82.1
+32,Tana River,Mar,3,82.4,Severe,82.1
+32,Tana River,Apr,4,73.1,Mild,82.1
+32,Tana River,May,5,75.1,Moderate,82.1
+32,Tana River,Jun,6,71.8,Mild,82.1
+32,Tana River,Jul,7,71.8,Mild,82.1
+32,Tana River,Aug,8,71.8,Mild,82.1
+32,Tana River,Sep,9,87.0,Severe,82.1
+32,Tana River,Oct,10,89.7,Severe,82.1
+32,Tana River,Nov,11,74.9,Moderate,82.1
+32,Tana River,Dec,12,81.7,Severe,82.1
+33,Kisumu,Jan,1,77.0,Moderate,73.5
+33,Kisumu,Feb,2,75.8,Moderate,73.5
+33,Kisumu,Mar,3,79.1,Moderate,73.5
+33,Kisumu,Apr,4,66.1,None,73.5
+33,Kisumu,May,5,64.8,None,73.5
+33,Kisumu,Jun,6,64.8,None,73.5
+33,Kisumu,Jul,7,65.2,None,73.5
+33,Kisumu,Aug,8,64.2,None,73.5
+33,Kisumu,Sep,9,77.5,Moderate,73.5
+33,Kisumu,Oct,10,81.3,Severe,73.5
+33,Kisumu,Nov,11,71.8,Mild,73.5
+33,Kisumu,Dec,12,67.2,None,73.5
+34,Siaya,Jan,1,73.9,Mild,72.2
+34,Siaya,Feb,2,78.6,Moderate,72.2
+34,Siaya,Mar,3,72.3,Mild,72.2
+34,Siaya,Apr,4,66.8,None,72.2
+34,Siaya,May,5,64.8,None,72.2
+34,Siaya,Jun,6,62.8,None,72.2
+34,Siaya,Jul,7,62.8,None,72.2
+34,Siaya,Aug,8,63.7,None,72.2
+34,Siaya,Sep,9,78.4,Moderate,72.2
+34,Siaya,Oct,10,79.7,Moderate,72.2
+34,Siaya,Nov,11,69.9,Mild,72.2
+34,Siaya,Dec,12,70.1,Mild,72.2
+35,Homa Bay,Jan,1,81.2,Severe,74.1
+35,Homa Bay,Feb,2,78.0,Moderate,74.1
+35,Homa Bay,Mar,3,77.1,Moderate,74.1
+35,Homa Bay,Apr,4,70.1,Mild,74.1
+35,Homa Bay,May,5,67.7,None,74.1
+35,Homa Bay,Jun,6,64.5,None,74.1
+35,Homa Bay,Jul,7,64.5,None,74.1
+35,Homa Bay,Aug,8,65.5,None,74.1
+35,Homa Bay,Sep,9,80.5,Severe,74.1
+35,Homa Bay,Oct,10,82.7,Severe,74.1
+35,Homa Bay,Nov,11,70.2,Mild,74.1
+35,Homa Bay,Dec,12,68.2,Mild,74.1
+36,Migori,Jan,1,76.9,Moderate,72.5
+36,Migori,Feb,2,72.9,Mild,72.5
+36,Migori,Mar,3,75.5,Moderate,72.5
+36,Migori,Apr,4,65.6,None,72.5
+36,Migori,May,5,64.8,None,72.5
+36,Migori,Jun,6,63.4,None,72.5
+36,Migori,Jul,7,64.0,None,72.5
+36,Migori,Aug,8,63.6,None,72.5
+36,Migori,Sep,9,76.4,Moderate,72.5
+36,Migori,Oct,10,77.5,Moderate,72.5
+36,Migori,Nov,11,69.1,Mild,72.5
+36,Migori,Dec,12,72.0,Mild,72.5
+37,Kisii,Jan,1,73.9,Mild,68.2
+37,Kisii,Feb,2,73.9,Mild,68.2
+37,Kisii,Mar,3,70.3,Mild,68.2
+37,Kisii,Apr,4,60.9,None,68.2
+37,Kisii,May,5,61.2,None,68.2
+37,Kisii,Jun,6,59.8,None,68.2
+37,Kisii,Jul,7,59.8,None,68.2
+37,Kisii,Aug,8,61.0,None,68.2
+37,Kisii,Sep,9,73.3,Mild,68.2
+37,Kisii,Oct,10,73.2,Mild,68.2
+37,Kisii,Nov,11,61.9,None,68.2
+37,Kisii,Dec,12,67.7,None,68.2
+38,Nyamira,Jan,1,71.0,Mild,67.1
+38,Nyamira,Feb,2,71.6,Mild,67.1
+38,Nyamira,Mar,3,73.2,Mild,67.1
+38,Nyamira,Apr,4,59.4,None,67.1
+38,Nyamira,May,5,61.2,None,67.1
+38,Nyamira,Jun,6,58.5,None,67.1
+38,Nyamira,Jul,7,58.5,None,67.1
+38,Nyamira,Aug,8,59.3,None,67.1
+38,Nyamira,Sep,9,74.2,Moderate,67.1
+38,Nyamira,Oct,10,72.8,Mild,67.1
+38,Nyamira,Nov,11,62.9,None,67.1
+38,Nyamira,Dec,12,64.0,None,67.1
+39,Kakamega,Jan,1,70.2,Mild,70.2
+39,Kakamega,Feb,2,71.9,Mild,70.2
+39,Kakamega,Mar,3,71.7,Mild,70.2
+39,Kakamega,Apr,4,61.4,None,70.2
+39,Kakamega,May,5,65.3,None,70.2
+39,Kakamega,Jun,6,61.2,None,70.2
+39,Kakamega,Jul,7,61.2,None,70.2
+39,Kakamega,Aug,8,61.2,None,70.2
+39,Kakamega,Sep,9,78.2,Moderate,70.2
+39,Kakamega,Oct,10,75.4,Moderate,70.2
+39,Kakamega,Nov,11,63.7,None,70.2
+39,Kakamega,Dec,12,65.7,None,70.2
+40,Vihiga,Jan,1,74.7,Moderate,69.5
+40,Vihiga,Feb,2,73.3,Mild,69.5
+40,Vihiga,Mar,3,75.2,Moderate,69.5
+40,Vihiga,Apr,4,65.7,None,69.5
+40,Vihiga,May,5,64.6,None,69.5
+40,Vihiga,Jun,6,60.5,None,69.5
+40,Vihiga,Jul,7,60.5,None,69.5
+40,Vihiga,Aug,8,60.5,None,69.5
+40,Vihiga,Sep,9,77.5,Moderate,69.5
+40,Vihiga,Oct,10,75.6,Moderate,69.5
+40,Vihiga,Nov,11,63.6,None,69.5
+40,Vihiga,Dec,12,67.2,None,69.5
+41,Bungoma,Jan,1,73.8,Mild,71.8
+41,Bungoma,Feb,2,76.0,Moderate,71.8
+41,Bungoma,Mar,3,76.0,Moderate,71.8
+41,Bungoma,Apr,4,64.2,None,71.8
+41,Bungoma,May,5,67.0,None,71.8
+41,Bungoma,Jun,6,62.5,None,71.8
+41,Bungoma,Jul,7,62.5,None,71.8
+41,Bungoma,Aug,8,62.5,None,71.8
+41,Bungoma,Sep,9,79.8,Moderate,71.8
+41,Bungoma,Oct,10,79.8,Moderate,71.8
+41,Bungoma,Nov,11,67.5,None,71.8
+41,Bungoma,Dec,12,69.3,Mild,71.8
+42,Busia,Jan,1,75.3,Moderate,74.2
+42,Busia,Feb,2,81.1,Severe,74.2
+42,Busia,Mar,3,77.0,Moderate,74.2
+42,Busia,Apr,4,68.5,Mild,74.2
+42,Busia,May,5,64.2,None,74.2
+42,Busia,Jun,6,64.2,None,74.2
+42,Busia,Jul,7,64.2,None,74.2
+42,Busia,Aug,8,65.9,None,74.2
+42,Busia,Sep,9,81.8,Severe,74.2
+42,Busia,Oct,10,82.8,Severe,74.2
+42,Busia,Nov,11,70.4,Mild,74.2
+42,Busia,Dec,12,70.4,Mild,74.2
+43,Turkana,Jan,1,87.8,Severe,86.8
+43,Turkana,Feb,2,93.8,Severe,86.8
+43,Turkana,Mar,3,88.9,Severe,86.8
+43,Turkana,Apr,4,81.6,Severe,86.8
+43,Turkana,May,5,81.7,Severe,86.8
+43,Turkana,Jun,6,77.6,Moderate,86.8
+43,Turkana,Jul,7,74.5,Moderate,86.8
+43,Turkana,Aug,8,75.3,Moderate,86.8
+43,Turkana,Sep,9,97.2,Severe,86.8
+43,Turkana,Oct,10,92.3,Severe,86.8
+43,Turkana,Nov,11,83.3,Severe,86.8
+43,Turkana,Dec,12,78.4,Moderate,86.8
+44,West Pokot,Jan,1,78.9,Moderate,75.2
+44,West Pokot,Feb,2,76.4,Moderate,75.2
+44,West Pokot,Mar,3,76.6,Moderate,75.2
+44,West Pokot,Apr,4,66.7,None,75.2
+44,West Pokot,May,5,67.2,None,75.2
+44,West Pokot,Jun,6,64.8,None,75.2
+44,West Pokot,Jul,7,64.2,None,75.2
+44,West Pokot,Aug,8,64.2,None,75.2
+44,West Pokot,Sep,9,80.3,Severe,75.2
+44,West Pokot,Oct,10,83.3,Severe,75.2
+44,West Pokot,Nov,11,72.5,Mild,75.2
+44,West Pokot,Dec,12,71.9,Mild,75.2
+45,Samburu,Jan,1,82.5,Severe,76.8
+45,Samburu,Feb,2,79.4,Moderate,76.8
+45,Samburu,Mar,3,82.7,Severe,76.8
+45,Samburu,Apr,4,68.6,Mild,76.8
+45,Samburu,May,5,69.0,Mild,76.8
+45,Samburu,Jun,6,66.4,None,76.8
+45,Samburu,Jul,7,65.1,None,76.8
+45,Samburu,Aug,8,66.5,None,76.8
+45,Samburu,Sep,9,85.4,Severe,76.8
+45,Samburu,Oct,10,83.0,Severe,76.8
+45,Samburu,Nov,11,69.8,Mild,76.8
+45,Samburu,Dec,12,69.8,Mild,76.8
+46,Nandi,Jan,1,71.5,Mild,65.5
+46,Nandi,Feb,2,70.0,Mild,65.5
+46,Nandi,Mar,3,66.3,None,65.5
+46,Nandi,Apr,4,58.0,None,65.5
+46,Nandi,May,5,59.6,None,65.5
+46,Nandi,Jun,6,57.9,None,65.5
+46,Nandi,Jul,7,56.8,None,65.5
+46,Nandi,Aug,8,56.8,None,65.5
+46,Nandi,Sep,9,72.8,Mild,65.5
+46,Nandi,Oct,10,68.8,Mild,65.5
+46,Nandi,Nov,11,60.3,None,65.5
+46,Nandi,Dec,12,65.2,None,65.5
+47,Kericho,Jan,1,68.5,Mild,64.5
+47,Kericho,Feb,2,66.2,None,64.5
+47,Kericho,Mar,3,64.9,None,64.5
+47,Kericho,Apr,4,56.8,None,64.5
+47,Kericho,May,5,56.8,None,64.5
+47,Kericho,Jun,6,57.3,None,64.5
+47,Kericho,Jul,7,56.8,None,64.5
+47,Kericho,Aug,8,56.8,None,64.5
+47,Kericho,Sep,9,71.2,Mild,64.5
+47,Kericho,Oct,10,70.4,Mild,64.5
+47,Kericho,Nov,11,59.3,None,64.5
+47,Kericho,Dec,12,61.4,None,64.5
