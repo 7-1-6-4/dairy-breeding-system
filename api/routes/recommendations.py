@@ -52,7 +52,7 @@ def get_recommendations():
     
     if not has_current_breed:
         # SCENARIO 1: Farmer has no cow
-        # Recommend top 2 breeds (prioritize pure breeds first, then crossbreeds)
+        # Recommend top pure breed and top crossbreed
         pure_breeds = [s for s in all_scores if s['breed_id'] in ['B001', 'B002', 'B003', 'B004', 'B005']]
         cross_breeds = [s for s in all_scores if s['breed_id'] in ['B006', 'B007', 'B008', 'B009', 'B010']]
         
@@ -75,7 +75,7 @@ def get_recommendations():
                         break
         
     else:
-        # SCENARIO 2: Farmer has a cow
+        # SCENARIO 2: Farmer has a cow - recommend crossbreeds
         current_type = current_breed_info.get('breed_type', '')
         current_name = current_breed_info.get('breed_name', '')
         
@@ -86,11 +86,11 @@ def get_recommendations():
             'B003': ['B008', 'B006'],  # Jersey → Jersey × Sahiwal, Friesian × Sahiwal
             'B004': ['B006', 'B008'],  # Sahiwal → Friesian × Sahiwal, Jersey × Sahiwal
             'B005': ['B009', 'B010'],  # Boran → Friesian × Boran, Ayrshire × Boran
-            'B006': ['B006', 'B001'],  # Friesian × Sahiwal → continue or upgrade to Friesian
-            'B007': ['B007', 'B002'],  # Ayrshire × Sahiwal → continue or upgrade to Ayrshire
-            'B008': ['B008', 'B003'],  # Jersey × Sahiwal → continue or upgrade to Jersey
-            'B009': ['B009', 'B001'],  # Friesian × Boran → continue or upgrade to Friesian
-            'B010': ['B010', 'B002'],  # Ayrshire × Boran → continue or upgrade to Ayrshire
+            'B006': ['B006', 'B001'],  # Friesian × Sahiwal → continue or upgrade
+            'B007': ['B007', 'B002'],  # Ayrshire × Sahiwal → continue or upgrade
+            'B008': ['B008', 'B003'],  # Jersey × Sahiwal → continue or upgrade
+            'B009': ['B009', 'B001'],  # Friesian × Boran → continue or upgrade
+            'B010': ['B010', 'B002'],  # Ayrshire × Boran → continue or upgrade
         }
         
         # Get recommended crossbreeds
