@@ -1,7 +1,6 @@
 from flask import Blueprint, request, jsonify
 import uuid
 from services.database import DatabaseService
-#from services.predictor import PredictorService
 from services.explainer import ExplainerService
 
 # Create blueprint
@@ -9,7 +8,6 @@ recommendations_bp = Blueprint('recommendations', __name__)
 
 # Initialize services
 db = DatabaseService()
-#predictor = PredictorService()
 explainer = ExplainerService()
 
 @recommendations_bp.route('/recommend', methods=['POST'])
@@ -39,46 +37,132 @@ def get_recommendations():
     if not county:
         return jsonify({'error': 'County not found'}), 404
     
-    # Get top recommendations from database
-    recommendations = db.get_top_recommendations(county_id, limit=2)
+    # Get all suitability scores for this county
+    all_scores = db.get_suitability_scores(county_id)
     
-    if not recommendations:
-        return jsonify({'error': 'No recommendations found'}), 404
+    # Get current breed info if provided
+    current_breed_info = None
+    has_current_breed = False
+    if current_breed and current_breed != "":
+        current_breed_info = db.get_breed_by_id(current_breed)
+        has_current_breed = True
+    
+    # ========== BREED-AWARE RECOMMENDATION LOGIC ==========
+    recommendations = []
+    
+    if not has_current_breed:
+        # SCENARIO 1: Farmer has no cow
+        # Recommend top 2 breeds (prioritize pure breeds first, then crossbreeds)
+        pure_breeds = [s for s in all_scores if s['breed_id'] in ['B001', 'B002', 'B003', 'B004', 'B005']]
+        cross_breeds = [s for s in all_scores if s['breed_id'] in ['B006', 'B007', 'B008', 'B009', 'B010']]
+        
+        # Sort by suitability score
+        pure_breeds.sort(key=lambda x: x['suitability_score'], reverse=True)
+        cross_breeds.sort(key=lambda x: x['suitability_score'], reverse=True)
+        
+        # Take top pure breed and top crossbreed
+        if pure_breeds:
+            recommendations.append(pure_breeds[0])
+        if cross_breeds and len(recommendations) < 2:
+            recommendations.append(cross_breeds[0])
+        
+        # If we don't have 2 yet, fill with more
+        if len(recommendations) < 2:
+            for score in all_scores:
+                if score not in recommendations:
+                    recommendations.append(score)
+                    if len(recommendations) >= 2:
+                        break
+        
+    else:
+        # SCENARIO 2: Farmer has a cow
+        current_type = current_breed_info.get('breed_type', '')
+        current_name = current_breed_info.get('breed_name', '')
+        
+        # Crossbreed mapping based on current breed
+        cross_mapping = {
+            'B001': ['B006', 'B009'],  # Friesian → Friesian × Sahiwal, Friesian × Boran
+            'B002': ['B007', 'B010'],  # Ayrshire → Ayrshire × Sahiwal, Ayrshire × Boran
+            'B003': ['B008', 'B006'],  # Jersey → Jersey × Sahiwal, Friesian × Sahiwal
+            'B004': ['B006', 'B008'],  # Sahiwal → Friesian × Sahiwal, Jersey × Sahiwal
+            'B005': ['B009', 'B010'],  # Boran → Friesian × Boran, Ayrshire × Boran
+            'B006': ['B006', 'B001'],  # Friesian × Sahiwal → continue or upgrade to Friesian
+            'B007': ['B007', 'B002'],  # Ayrshire × Sahiwal → continue or upgrade to Ayrshire
+            'B008': ['B008', 'B003'],  # Jersey × Sahiwal → continue or upgrade to Jersey
+            'B009': ['B009', 'B001'],  # Friesian × Boran → continue or upgrade to Friesian
+            'B010': ['B010', 'B002'],  # Ayrshire × Boran → continue or upgrade to Ayrshire
+        }
+        
+        # Get recommended crossbreeds
+        target_ids = cross_mapping.get(current_breed, ['B006', 'B007'])
+        
+        for target_id in target_ids:
+            for score in all_scores:
+                if score['breed_id'] == target_id and score not in recommendations:
+                    recommendations.append(score)
+                    break
+        
+        # If we don't have 2 yet, add top crossbreed
+        if len(recommendations) < 2:
+            cross_breeds = [s for s in all_scores if s['breed_id'] in ['B006', 'B007', 'B008', 'B009', 'B010']]
+            cross_breeds.sort(key=lambda x: x['suitability_score'], reverse=True)
+            for score in cross_breeds:
+                if score not in recommendations:
+                    recommendations.append(score)
+                    if len(recommendations) >= 2:
+                        break
+        
+        # If still not enough, add top pure breed
+        if len(recommendations) < 2:
+            pure_breeds = [s for s in all_scores if s['breed_id'] in ['B001', 'B002', 'B003', 'B004', 'B005']]
+            pure_breeds.sort(key=lambda x: x['suitability_score'], reverse=True)
+            for score in pure_breeds:
+                if score not in recommendations:
+                    recommendations.append(score)
+                    if len(recommendations) >= 2:
+                        break
+    
+    # Limit to 2 recommendations
+    recommendations = recommendations[:2]
     
     # Enrich with breed details and explanations
     enriched = []
     for idx, rec in enumerate(recommendations, 1):
-        breed_data = rec.get('breeds', {})
-        
-        # Get full breed details
         breed = db.get_breed_by_id(rec['breed_id'])
+        if not breed:
+            continue
         
-        # Generate explanation
-        explanation = explainer.generate_explanation(breed, county, rec['suitability_score'])
+        # Generate explanation with context about current breed
+        explanation = explainer.generate_explanation(
+            breed, county, rec['suitability_score'], 
+            has_current_breed=has_current_breed, 
+            current_breed_info=current_breed_info
+        )
         
         enriched.append({
             'rank': idx,
             'breed_id': rec['breed_id'],
-            'breed_name': breed_data.get('breed_name', 'Unknown'),
-            'breed_type': breed_data.get('breed_type', 'Unknown'),
+            'breed_name': breed.get('breed_name', 'Unknown'),
+            'breed_type': breed.get('breed_type', 'Unknown'),
             'suitability_score': rec['suitability_score'],
-            'milk_score': rec['milk_score'],
-            'health_score': rec['health_score'],
-            'adaptation_score': rec['adaptation_score'],
+            'milk_score': rec.get('milk_score', 0),
+            'health_score': rec.get('health_score', 0),
+            'adaptation_score': rec.get('adaptation_score', 0),
             'heat_tolerance_score': breed.get('heat_tolerance_score', 5),
-            'description': breed_data.get('description', ''),
+            'disease_resistance_score': breed.get('disease_resistance_score', 5),
+            'feed_efficiency_score': breed.get('feed_efficiency_score', 5),
+            'description': breed.get('description', ''),
             'explanation': explanation
         })
     
     # Calculate improvement if current breed provided
     improvement = None
-    if current_breed and enriched:
+    if has_current_breed and enriched:
         current_score = None
-        for score in db.get_suitability_scores(county_id):
+        for score in all_scores:
             if score['breed_id'] == current_breed:
                 current_score = score['suitability_score']
                 break
-        
         if current_score:
             improvement = enriched[0]['suitability_score'] - current_score
     
@@ -98,7 +182,8 @@ def get_recommendations():
     if len(enriched) >= 2:
         breed1 = db.get_breed_by_id(enriched[0]['breed_id'])
         breed2 = db.get_breed_by_id(enriched[1]['breed_id'])
-        comparison = explainer.generate_comparison(breed1, breed2, county)
+        if breed1 and breed2:
+            comparison = explainer.generate_comparison(breed1, breed2, county)
     
     response = {
         'success': True,
@@ -108,11 +193,13 @@ def get_recommendations():
             'name': county['county_name'],
             'region': county['region'],
             'altitude': county['altitude_m'],
-            'avg_thi': county['avg_thi']
+            'avg_thi': county['avg_thi'],
+            'disease_index': county['disease_index']
         },
         'recommendations': enriched,
         'improvement_potential': round(improvement, 2) if improvement is not None else None,
-        'comparison': comparison
+        'comparison': comparison,
+        'has_current_breed': has_current_breed
     }
     
     return jsonify(response)
@@ -125,8 +212,4 @@ def predict_custom():
     if not data:
         return jsonify({'error': 'No data provided'}), 400
     
-    try:
-        score = predictor.predict_suitability(data)
-        return jsonify({'predicted_suitability': round(score, 2)})
-    except Exception as e:
-        return jsonify({'error': str(e)}), 400
+    return jsonify({'message': 'ML prediction endpoint - model not loaded on Railway'}), 501

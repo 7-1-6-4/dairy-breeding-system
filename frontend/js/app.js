@@ -1,6 +1,6 @@
 // API Configuration
-
-const API_BASE_URL = 'https://dairy-breeding-system-production.up.railway.app';
+ const API_BASE_URL = 'https://dairy-breeding-system-production.up.railway.app';
+//const API_BASE_URL = 'http://127.0.0.1:5000';
 
 // DOM Elements
 const form = document.getElementById('recommendation-form');
@@ -12,6 +12,9 @@ const locationBadge = document.getElementById('location-badge');
 const recommendationsGrid = document.getElementById('recommendations-grid');
 const improvementBox = document.getElementById('improvement-box');
 const comparisonBox = document.getElementById('comparison-box');
+
+// Store current THI for display
+let currentThi = null;
 
 // Initialize on page load
 document.addEventListener('DOMContentLoaded', async () => {
@@ -107,6 +110,9 @@ async function handleSubmit(e) {
 
 // Display results
 function displayResults(data) {
+    // Store THI for tooltip
+    currentThi = data.county.avg_thi;
+    
     // Hide loading
     loadingDiv.classList.add('hidden');
     
@@ -148,50 +154,147 @@ function displayResults(data) {
     }
 }
 
-// Create recommendation card
+// Helper functions for explanations
+function getSuitabilityExplanation(score) {
+    if (score >= 90) return "✅ Excellent match - This breed will thrive here";
+    if (score >= 75) return "👍 Good match - Strong potential for success";
+    if (score >= 60) return "⚠️ Fair match - May need some management adjustments";
+    return "⚠️ Challenging - Not ideal for this area without significant management";
+}
+
+function getMilkExplanation(breedType, score) {
+    if (breedType === 'Pure Exotic') {
+        if (score >= 80) return "High production potential in your area";
+        if (score >= 60) return "Moderate production - could be better with cooler conditions";
+        return "Production limited by local heat stress";
+    } else if (breedType === 'Pure Indigenous') {
+        if (score >= 80) return "Good production for an adapted breed";
+        return "Moderate production but very reliable";
+    } else {
+        if (score >= 80) return "Excellent balance of production and adaptation";
+        return "Good production with solid resilience";
+    }
+}
+
+function getHeatExplanation(score) {
+    if (score >= 8) return "🔥 Excellent heat tolerance - ideal for hot areas";
+    if (score >= 6) return "🌤️ Good heat tolerance - suitable for most regions";
+    if (score >= 4) return "☀️ Moderate - needs shade and water in hot weather";
+    return "❄️ Prefers cool highlands - needs cooling in hot areas";
+}
+
+function getHealthExplanation(score) {
+    if (score >= 80) return "🛡️ Excellent disease resistance";
+    if (score >= 60) return "👍 Good natural immunity";
+    if (score >= 40) return "⚠️ Moderate - requires regular veterinary care";
+    return "⚠️ High risk - needs intensive disease management";
+}
+
+// Create recommendation card with tooltips
 function createRecommendationCard(rec, isPrimary) {
     const card = document.createElement('div');
     card.className = `recommendation-card ${isPrimary ? 'primary' : ''}`;
     
-    // Create stars for traits
-    const heatStars = '★'.repeat(Math.round(rec.heat_tolerance_score)) + '☆'.repeat(10 - Math.round(rec.heat_tolerance_score));
-    const diseaseStars = '★'.repeat(Math.round(rec.disease_resistance_score)) + '☆'.repeat(10 - Math.round(rec.disease_resistance_score));
-    const feedStars = '★'.repeat(Math.round(rec.feed_efficiency_score)) + '☆'.repeat(10 - Math.round(rec.feed_efficiency_score));
+    // Get heat tolerance score (1-10)
+    const heatScore = rec.heat_tolerance_score || 5;
+    const heatStars = '★'.repeat(heatScore) + '☆'.repeat(10 - heatScore);
+    
+    // Get milk yield percentage
+    const milkPct = rec.milk_score || 0;
+    
+    // Get health score
+    const healthScore = rec.health_score || 0;
+    
+    // Get suitability score
+    const suitability = rec.suitability_score || 0;
     
     card.innerHTML = `
         <div class="rank-badge">#${rec.rank} ${isPrimary ? 'Best Match' : 'Alternative'}</div>
         <div class="breed-name">${rec.breed_name}</div>
         <div class="breed-type">${rec.breed_type}</div>
         
+        <!-- Suitability Meter with Tooltip -->
         <div class="suitability-meter">
             <div class="meter-header">
-                <span>Suitability</span>
-                <span class="meter-value">${rec.suitability_score.toFixed(1)}%</span>
+                <div class="metric-label">
+                    <span>Suitability</span>
+                    <span class="help-icon" data-tooltip="How well this breed matches your county's environmental conditions. Calculated using Temperature-Humidity Index (THI), altitude, rainfall, and disease prevalence. Higher percentage = better match.">?</span>
+                </div>
+                <span class="meter-value">${suitability.toFixed(1)}%</span>
             </div>
             <div class="meter-bar">
-                <div class="meter-fill" style="width: ${rec.suitability_score}%"></div>
+                <div class="meter-fill" style="width: ${suitability}%"></div>
+            </div>
+            <div style="font-size: 11px; color: #6c757d; margin-top: 5px;">
+                ${getSuitabilityExplanation(suitability)}
             </div>
         </div>
         
         <div class="traits-grid">
+            <!-- Milk Yield with Tooltip -->
             <div class="trait-item">
-                <span class="trait-label">Milk Yield</span>
-                <span class="trait-value">${rec.milk_score.toFixed(0)}%</span>
+                <div class="metric-label">
+                    <span class="trait-label">Milk Yield</span>
+                    <span class="help-icon" data-tooltip="Expected milk production in your area. The percentage shows how close this breed's yield is to its maximum genetic potential (100% = 25-30 L/day for exotic breeds, 12-15 L/day for indigenous).">?</span>
+                </div>
+                <span class="trait-value">${milkPct.toFixed(0)}%</span>
+                <div style="font-size: 10px; color: #6c757d; margin-top: 3px;">
+                    ${getMilkExplanation(rec.breed_type, milkPct)}
+                </div>
             </div>
+            
+            <!-- Heat Tolerance with Tooltip -->
             <div class="trait-item">
-                <span class="trait-label">Heat Tolerance</span>
+                <div class="metric-label">
+                    <span class="trait-label">Heat Tolerance</span>
+                    <span class="help-icon" data-tooltip="Ability to handle high temperatures and humidity. Measured by Temperature-Humidity Index (THI). 10 stars = excellent heat tolerance (can thrive above THI 80), 1 star = poor heat tolerance (stressed above THI 68).">?</span>
+                </div>
                 <span class="trait-stars">${heatStars}</span>
+                <div style="font-size: 10px; color: #6c757d; margin-top: 3px;">
+                    ${getHeatExplanation(heatScore)}
+                </div>
             </div>
+            
+            <!-- Health with Tooltip -->
             <div class="trait-item">
-                <span class="trait-label">Health</span>
-                <span class="trait-value">${rec.health_score.toFixed(0)}%</span>
+                <div class="metric-label">
+                    <span class="trait-label">Health</span>
+                    <span class="help-icon" data-tooltip="Disease resistance rating. Higher percentage means better resistance to endemic diseases like East Coast Fever, Anaplasmosis, and Mastitis.">?</span>
+                </div>
+                <span class="trait-value">${healthScore.toFixed(0)}%</span>
+                <div style="font-size: 10px; color: #6c757d; margin-top: 3px;">
+                    ${getHealthExplanation(healthScore)}
+                </div>
             </div>
         </div>
+        
+        <!-- THI Explanation Box -->
+        <details class="thi-info">
+            <summary>🌡️ What is Temperature-Humidity Index (THI)?</summary>
+            <p>THI measures heat stress in cattle. It combines temperature and humidity:</p>
+            <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                <li><strong>THI &lt; 68</strong>: Comfortable - No stress</li>
+                <li><strong>THI 68-72</strong>: Mild stress - Milk begins to drop</li>
+                <li><strong>THI 72-78</strong>: Moderate stress - Significant production loss</li>
+                <li><strong>THI > 78</strong>: Severe stress - High risk of health issues</li>
+            </ul>
+            <p style="margin-top: 8px;">Your county's THI: <strong>${currentThi || 'N/A'}</strong></p>
+        </details>
         
         <div class="explanation-box">
             ${rec.explanation}
         </div>
     `;
+    
+    // Add tooltip behavior
+    const helpIcons = card.querySelectorAll('.help-icon');
+    helpIcons.forEach(icon => {
+        icon.addEventListener('mouseenter', function(e) {
+            const tooltip = this.getAttribute('data-tooltip');
+            // Create or update title attribute for native tooltip
+            this.setAttribute('title', tooltip);
+        });
+    });
     
     return card;
 }
@@ -210,7 +313,6 @@ function printResults() {
 
 // Show error
 function showError(message) {
-    // You can enhance this with a toast notification
     alert(message);
 }
 

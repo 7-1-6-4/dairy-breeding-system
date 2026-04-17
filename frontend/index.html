@@ -6,6 +6,62 @@
     <title>AI Dairy Breed Advisor - Kenya</title>
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        /* Tooltip styles */
+        .help-icon {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background: #d1d5db;
+            color: white;
+            text-align: center;
+            border-radius: 50%;
+            font-size: 11px;
+            line-height: 16px;
+            cursor: help;
+            margin-left: 6px;
+            font-weight: bold;
+        }
+        
+        .help-icon:hover {
+            background: var(--primary);
+        }
+        
+        .metric-label {
+            display: flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        /* THI info box */
+        .thi-info {
+            background: var(--primary-light);
+            padding: 12px 15px;
+            border-radius: 10px;
+            margin: 15px 0;
+            font-size: 0.85rem;
+            border-left: 3px solid var(--primary);
+        }
+        
+        .thi-info summary {
+            cursor: pointer;
+            font-weight: 600;
+            color: var(--primary-dark);
+        }
+        
+        .thi-info p {
+            margin-top: 8px;
+            color: var(--text);
+        }
+        
+        .thi-info ul {
+            margin: 8px 0 0 20px;
+        }
+        
+        .thi-info li {
+            margin-bottom: 4px;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
